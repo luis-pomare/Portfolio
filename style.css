@@ -14,7 +14,7 @@
 .welcome{
   font-size: 20px;
   color: #28352F;
-  font-weight: 600;
+  font-weight: bold;
 }
 header{
   display: flex;
@@ -32,4 +32,10 @@ h1{
 }
 .h1-green{
   color: rgb(77, 163, 100);  
-}  
+}
+.text{
+  font-weight: normal;
+  font-size: 20px;
+  padding: 29px;
+  text-align: center;
+}
