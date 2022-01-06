@@ -37,5 +37,15 @@ h1{
   font-weight: normal;
   font-size: 20px;
   padding: 28px;
+  padding-top: 57px;
   text-align: center;
+}
+.social{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  color: #505F79;
+  font-size: 20px;
 }
