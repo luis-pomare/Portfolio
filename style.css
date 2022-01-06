@@ -6,10 +6,13 @@
 .toolbar{
   display: flex;
   justify-content: space-between;
+  padding: 29px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .welcome{
-  margin-left: 27px;
-}
-.menu{
-  margin-right: 27px;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  color: #28352F;
+  font-weight: 600;
 }
