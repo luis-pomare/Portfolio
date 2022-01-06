@@ -16,3 +16,20 @@
   color: #28352F;
   font-weight: 600;
 }
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 75px;
+  background-image: url("images/header-background.svg");
+}
+h1{
+  font-weight: bold;
+  font-size: 40px;
+}
+.h1-blue{
+  color: #172B4D;
+}
+.h1-green{
+  color: rgb(77, 163, 100);  
+}  
