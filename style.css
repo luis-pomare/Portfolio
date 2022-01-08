@@ -154,3 +154,23 @@ h4{
   justify-content: center;
   background-repeat: no-repeat;
 }
+
+#skills{
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 327px;
+  grid-template-rows: 352px 352px 352px;
+  row-gap: 17px;
+  justify-content: center;
+}
+
+.skill-cards{
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  background: #EBF0EE;
+  border-radius: 8px;
+  border: 1px solid #D0D9D4;
+  width: 327px;
+  height: 352px;
+}
