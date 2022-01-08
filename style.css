@@ -34,6 +34,12 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
 .h1-blue {
   color: #172b4d;
 }
