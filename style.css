@@ -65,11 +65,11 @@ h1 {
   justify-content: center;
 }
 
-.works-header{
+.works-header {
   background: none;
 }
 
-.cards{
+.cards {
   display: flex;
   flex-direction: column;
   height: 50px;
@@ -80,7 +80,7 @@ h1 {
   height: 474px;
 }
 
-.cards-container{
+.cards-container {
   display: grid;
   justify-content: center;
   grid-template-columns: 327px;
@@ -89,11 +89,11 @@ h1 {
   padding-top: 50px;
 }
 
-.card-space{
+.card-space {
   flex-grow: 1;
 }
 
-.card-info{
+.card-info {
   display: grid;
   grid-template: auto 1fr 1fr/1fr;
   width: 327;
@@ -103,21 +103,22 @@ h1 {
   background-color: white;
 }
 
-h4{
+h4 {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
   color: #3A4A42;
 }
 
-.ul-with{
+.ul-with {
   display: flex;
   justify-content: space-around;
   list-style: none;
   padding-top: 15px;
+  flex-wrap: wrap;
 }
 
-.blue-li{
+.blue-li {
   color: #3A4A42;
   font-size: 12px;
   font-weight: bold;
@@ -127,35 +128,35 @@ h4{
   border-radius: 4px;
 }
 
-.see-1{
+.see-1 {
   width: fit-content;
   height: fit-content;
   justify-self: center;
   align-self: center;
 }
 
-.about-header{
+.about-header {
   display: grid;
   background-image: none;
   grid-template-columns: 100%;
   grid-template-rows: auto auto auto;
 }
 
-#about-tittle{
+#about-tittle {
   background-image: url("images/About-back-1.svg");
   background-repeat: no-repeat;
   background-position: right;
   padding: 50px 0px 15px 0px;
 }
 
-#resume-button{
+#resume-button {
   background-image: url("images/About-back-2.svg");
   display: flex;
   justify-content: center;
   background-repeat: no-repeat;
 }
 
-#skills{
+#skills {
   margin: 50px;
   display: grid;
   grid-template-columns: 327px;
@@ -164,7 +165,7 @@ h4{
   justify-content: center;
 }
 
-.skill-cards{
+.skill-cards {
   display: flex;
   flex-direction: column;
   height: 50px;
@@ -173,4 +174,30 @@ h4{
   border: 1px solid #D0D9D4;
   width: 327px;
   height: 352px;
+  align-items: center;
+}
+
+.skill-img {
+  width: 130px;
+  padding-top: 30px;
+}
+
+.skill-li{
+  color: #36B37E;
+  font-size: 12px;
+  font-weight: bold;
+  height: 20px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 7px;
+}
+
+.skill-ul{
+  margin-top: 17px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  flex-wrap: wrap;
+  flex-basis: auto;
 }
