@@ -25,11 +25,13 @@ header {
   align-items: center;
   padding-top: 75px;
   background-image: url("images/header-background.svg");
+  background-repeat: no-repeat;
 }
 
 h1 {
   font-weight: bold;
   font-size: 40px;
+  text-align: center;
 }
 
 .h1-blue {
@@ -37,7 +39,7 @@ h1 {
 }
 
 .h1-green {
-  color: rgb(77, 163, 100);
+  color: #36b37e;
 }
 
 .text {
@@ -56,4 +58,9 @@ h1 {
   justify-content: space-around;
   color: #505f79;
   font-size: 20px;
+}
+
+.works-container{
+  display: grid;
+  justify-content: center;
 }
