@@ -65,6 +65,10 @@ h1 {
   justify-content: center;
 }
 
+.works-header{
+  background: none;
+}
+
 .cards{
   display: flex;
   flex-direction: column;
