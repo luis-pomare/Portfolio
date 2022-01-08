@@ -108,5 +108,28 @@ h4{
   font-weight: bold;
   text-align: center;
   color: #3A4A42;
-  ;
+}
+
+.ul-with{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-top: 15px;
+}
+
+.blue-li{
+  color: #3A4A42;
+  font-size: 12px;
+  font-weight: bold;
+  height: 20px;
+  background: #EBF0EE;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.see-1{
+  width: fit-content;
+  height: fit-content;
+  justify-self: center;
+  align-self: center;
 }
