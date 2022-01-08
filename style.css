@@ -64,3 +64,23 @@ h1 {
   display: grid;
   justify-content: center;
 }
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  background: #EBF0EE;
+  border-radius: 8px;
+  border: 1px solid #D0D9D4;
+  width: 327px;
+  height: 474px;
+}
+
+.cards-container{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  row-gap: 17px;
+  padding-top: 50px;
+}
