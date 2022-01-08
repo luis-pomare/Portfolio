@@ -133,3 +133,24 @@ h4{
   justify-self: center;
   align-self: center;
 }
+
+.about-header{
+  display: grid;
+  background-image: none;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto;
+}
+
+#about-tittle{
+  background-image: url("images/About-back-1.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 50px 0px 15px 0px;
+}
+
+#resume-button{
+  background-image: url("images/About-back-2.svg");
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
