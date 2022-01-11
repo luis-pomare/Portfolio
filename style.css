@@ -203,3 +203,16 @@ h4 {
   flex-wrap: wrap;
   flex-basis: auto;
 }
+
+.green-button{
+  height: fit-content;
+  width: fit-content;
+  justify-self: center;
+  background: #36B37F;
+  padding: 12px;
+  font-size: 17;
+  font-weight: 500;
+  border-radius: 4px;
+  color: white;
+  letter-spacing: 0.03em;
+}
