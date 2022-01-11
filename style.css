@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .toolbar {
@@ -204,15 +204,27 @@ h4 {
   flex-basis: auto;
 }
 
-.green-button{
+.green-button {
   height: fit-content;
   width: fit-content;
   justify-self: center;
-  background: #36B37F;
+  background: #36b37f;
   padding: 12px;
   font-size: 17;
   font-weight: 500;
   border-radius: 4px;
   color: white;
   letter-spacing: 0.03em;
+}
+
+.contact {
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #172b4d;
+  padding: 65px 24px 24px 24px;
 }
