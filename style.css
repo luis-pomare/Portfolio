@@ -215,6 +215,7 @@ h4 {
   border-radius: 4px;
   color: white;
   letter-spacing: 0.03em;
+  align-self: center;
 }
 
 .contact {
@@ -227,4 +228,32 @@ h4 {
   text-align: center;
   color: #172b4d;
   padding: 65px 24px 24px 24px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 25px;
+  padding: 30px;
+}
+
+.form input{
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+  width: 327px;
+  height: 48px;
+  padding-left: 12px;  
+}
+
+::placeholder{
+styleName: Theme 2 / Text Input Normal;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
 }
