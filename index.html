@@ -227,18 +227,37 @@
       </p>
     </section>
     <section class="form">
-      <form action="">
+      <form action="https://formspree.io/f/mjvlgbyr" method="post">
         <div>
-          <input type="text" id="full_name" placeholder="Full name" />
+          <input
+            name="Full_name"
+            type="text"
+            id="full_name"
+            placeholder="Full name"
+            maxlength="30"
+            required
+          />
         </div>
         <div>
-          <input type="email" id="email" placeholder="Email" />
+          <input
+            name="Email"
+            type="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
         </div>
         <div>
-          <textarea id="comment" placeholder="Enter text here"></textarea>
+          <textarea
+            name="Comment"
+            id="comment"
+            placeholder="Enter text here"
+            maxlength="500"
+            required
+          ></textarea>
         </div>
         <div class="green-button">
-          <button>Get in touch</button>
+          <button type="submit">Get in touch</button>
         </div>
       </form>
     </section>
