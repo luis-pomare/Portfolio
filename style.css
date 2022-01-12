@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .toolbar {
@@ -48,12 +48,23 @@ h3 {
   color: #36b37e;
 }
 
-.text {
+.text1 {
   font-weight: normal;
   font-size: 20px;
   padding: 28px;
   padding-top: 57px;
   text-align: center;
+}
+
+.text2 {
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #42526e;
+  font-style: normal;
+  font-size: 20px;
+  padding-bottom: 25px;
 }
 
 .social {
@@ -64,6 +75,7 @@ h3 {
   justify-content: space-around;
   color: #505f79;
   font-size: 20px;
+  align-self: center;
 }
 
 .works-container {
@@ -149,7 +161,7 @@ h4 {
   background-image: url("images/About-back-1.svg");
   background-repeat: no-repeat;
   background-position: right;
-  padding: 50px 0 15px 0;
+  padding: 27px 0 40px 0;
 }
 
 #resume-button {
@@ -157,6 +169,7 @@ h4 {
   display: flex;
   justify-content: center;
   background-repeat: no-repeat;
+  padding-bottom: 30px;
 }
 
 #skills {
@@ -202,4 +215,78 @@ h4 {
   list-style: none;
   flex-wrap: wrap;
   flex-basis: auto;
+}
+
+button {
+  justify-self: center;
+  background: #36b37f;
+  padding: 12px;
+  font-weight: 500;
+  border-radius: 4px;
+  color: white;
+  letter-spacing: 0.03em;
+  align-self: center;
+  z-index: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-around;
+  gap: 25px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+form input {
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  height: 48px;
+  padding-left: 12px;
+}
+
+::placeholder {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #6b778c;
+}
+
+#comment {
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  height: 114px;
+  padding: 12px;
+}
+
+textarea::placeholder {
+  color: #091e42;
+}
+
+#contact-me {
+  display: flex;
+  flex-direction: column;
+}
+
+#mail {
+  background: url(images/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 375px;
+  padding-top: 250px;
+  margin-top: -300px;
+}
+
+button:hover,
+#submit:hover {
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+  margin: -3px;
+  cursor: pointer;
 }
