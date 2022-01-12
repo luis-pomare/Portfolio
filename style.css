@@ -48,12 +48,24 @@ h3 {
   color: #36b37e;
 }
 
-.text {
+.text1 {
   font-weight: normal;
   font-size: 20px;
   padding: 28px;
   padding-top: 57px;
   text-align: center;
+}
+
+.text2{
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #42526E;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 20px;
+  padding-bottom: 25px;
 }
 
 .social {
@@ -64,6 +76,7 @@ h3 {
   justify-content: space-around;
   color: #505f79;
   font-size: 20px;
+  align-self: center;
 }
 
 .works-container {
@@ -149,7 +162,7 @@ h4 {
   background-image: url("images/About-back-1.svg");
   background-repeat: no-repeat;
   background-position: right;
-  padding: 50px 0 15px 0;
+  padding: 27px 0 40px 0;
 }
 
 #resume-button {
@@ -157,6 +170,7 @@ h4 {
   display: flex;
   justify-content: center;
   background-repeat: no-repeat;
+  padding-bottom: 30px;
 }
 
 #skills {
@@ -216,33 +230,23 @@ button {
   color: white;
   letter-spacing: 0.03em;
   align-self: center;
-}
-
-.contact {
-  font-family: Inter;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 52px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #172b4d;
-  padding: 65px 24px 24px 24px;
+  z-index: 1;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: space-around;
   gap: 25px;
-  padding: 30px;
+  width: 1fr;
+  padding: 20px;
+  margin-top: 30px;
 }
 
-.form input {
+form input {
   border: 1px solid #d0d9d4;
   border-radius: 4px;
-  width: 327px;
   height: 48px;
   padding-left: 12px;
 }
@@ -259,11 +263,35 @@ form {
 }
 
 #comment {
-  height: 150px;
-  width: 400px;
+  width: 1fr;
+  background: #FFFFFF;
+  border: 1px solid #60C095;
+  border-radius: 4px;
+  height: 114px;
   padding: 12px;
 }
 
 textarea::placeholder {
   color: #091e42;
+}
+
+#contact-me{
+  display: flex;
+  flex-direction: column;
+}
+
+#mail {
+  background: url(images/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 375px;
+  padding-top: 250px;
+  margin-top: -300px;
+}
+
+button:hover, #submit:hover{
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+  margin: -3px;
 }
