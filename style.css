@@ -56,13 +56,12 @@ h3 {
   text-align: center;
 }
 
-.text2{
+.text2 {
   font-weight: 400;
   line-height: 32px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color: #42526E;
-  font-family: Inter;
+  color: #42526e;
   font-style: normal;
   font-size: 20px;
   padding-bottom: 25px;
@@ -219,12 +218,9 @@ h4 {
 }
 
 button {
-  height: fit-content;
-  width: fit-content;
   justify-self: center;
   background: #36b37f;
   padding: 12px;
-  font-size: 17;
   font-weight: 500;
   border-radius: 4px;
   color: white;
@@ -239,7 +235,6 @@ form {
   align-items: stretch;
   justify-content: space-around;
   gap: 25px;
-  width: 1fr;
   padding: 20px;
   margin-top: 30px;
 }
@@ -252,20 +247,18 @@ form input {
 }
 
 ::placeholder {
-  font-family: Inter;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #6b778c;
 }
 
 #comment {
-  width: 1fr;
-  background: #FFFFFF;
-  border: 1px solid #60C095;
+  background: #fff;
+  border: 1px solid #60c095;
   border-radius: 4px;
   height: 114px;
   padding: 12px;
@@ -275,7 +268,7 @@ textarea::placeholder {
   color: #091e42;
 }
 
-#contact-me{
+#contact-me {
   display: flex;
   flex-direction: column;
 }
@@ -289,9 +282,11 @@ textarea::placeholder {
   margin-top: -300px;
 }
 
-button:hover, #submit:hover{
+button:hover,
+#submit:hover {
   background-color: white;
   color: black;
   border: 3px solid black;
   margin: -3px;
+  cursor: pointer;
 }
