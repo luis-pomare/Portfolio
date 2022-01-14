@@ -1,10 +1,11 @@
 #main-header{
   background: url("images/Header-llustration-desktop.svg");
   background-repeat: no-repeat;
-  background-size: contain;
-  padding-bottom: 200px;
-  padding-top: 180px;
+  background-size: cover;
+  padding-top: 0px;
   background-position-x: center;
+  width: 100%;
+  padding-bottom: 180px;
 }
 
 .toolbar{
@@ -56,4 +57,19 @@ form{
   background-image: url(images/illustration-about-me-1-desktop.svg), url(images/illustration-about-me-2-desktop.svg);
   background-position-x: right, left;
   background-position-y: top, bottom;
+}
+
+#toolbar-desktop {
+  display: flex;
+  justify-content: center;
+  background-color: none;
+}
+
+.toolbar-text{
+  padding: 15px;
+  background-color: none;
+  padding-bottom: 150px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #28352f;
 }

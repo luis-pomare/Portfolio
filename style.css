@@ -304,3 +304,7 @@ button:hover,
   display: flex;
   flex-direction: column;
 }
+
+#toolbar-desktop {
+  display: none;
+}
