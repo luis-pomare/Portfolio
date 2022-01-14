@@ -37,6 +37,11 @@ p{
   display: grid;
   grid-template-columns: 30% 50%;
   justify-content: space-around;
+  background-image: url(images/illustration-1-contact-form-desktop.svg), url(images/illustration-2-contact-form-desktop.svg), url(images/illustration-3-contact-form-desktop.svg);
+  background-position-x: left, 30%, right;
+  background-position-y: bottom, bottom, bottom;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  padding-bottom: 300px;
 }
 
 form{
@@ -72,4 +77,14 @@ form{
   font-size: 14px;
   font-weight: 600;
   color: #28352f;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #DFE1E6;
+}
+
+#social-2{
+  padding-bottom: 0px;
 }
