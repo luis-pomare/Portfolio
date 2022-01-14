@@ -1,3 +1,22 @@
-*{
-  background-color: rosybrown;
+#main-header{
+  background: url("images/Header-llustration-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 500px;
+  padding-top: 180px;
+  background-position-x: center;
+}
+
+.toolbar{
+  display: none;
+}
+
+br{
+  display: none;
+}
+
+.cards-container {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 474px 474px;
+  gap: 17px;
 }
