@@ -5,7 +5,7 @@
   font-family: "Inter", sans-serif;
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -33,7 +33,7 @@ header {
   background-repeat: no-repeat;
 }
 
-#main-header{
+#main-header {
   background-image: url("images/header-background.svg");
   background-size: cover;
 }
@@ -164,7 +164,6 @@ h4 {
 
 .about-header {
   display: grid;
-  background-image: none;
   grid-template-columns: 100%;
   grid-template-rows: auto auto auto;
   background-image: url(images/About-back-1.svg), url(images/About-back-2.svg);

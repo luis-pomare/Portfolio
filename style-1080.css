@@ -1,22 +1,22 @@
-#main-header{
+#main-header {
   background: url("images/Header-llustration-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 0px;
+  padding-top: 0;
   background-position-x: center;
   width: 100%;
   padding-bottom: 180px;
 }
 
-.toolbar{
+.toolbar {
   display: none;
 }
 
-br{
+br {
   display: none;
 }
 
-p{
+p {
   max-width: 700px;
 }
 
@@ -44,8 +44,7 @@ p{
   padding-bottom: 300px;
 }
 
-form{
-  align-items: space-between;
+form {
   padding: 0%;
   margin: 0%;
 }
@@ -58,7 +57,7 @@ form{
   align-self: flex-start;
 }
 
-.about-header{
+.about-header {
   background-image: url(images/illustration-about-me-1-desktop.svg), url(images/illustration-about-me-2-desktop.svg);
   background-position-x: right, left;
   background-position-y: top, bottom;
@@ -67,12 +66,10 @@ form{
 #toolbar-desktop {
   display: flex;
   justify-content: center;
-  background-color: none;
 }
 
-.toolbar-text{
+.toolbar-text {
   padding: 15px;
-  background-color: none;
   padding-bottom: 150px;
   font-size: 14px;
   font-weight: 600;
@@ -82,9 +79,9 @@ form{
 footer {
   display: flex;
   justify-content: center;
-  border-top: 2px solid #DFE1E6;
+  border-top: 2px solid #dfe1e6;
 }
 
-#social-2{
-  padding-bottom: 0px;
+#social-2 {
+  padding-bottom: 0;
 }
