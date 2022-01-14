@@ -5,6 +5,12 @@
   font-family: "Inter", sans-serif;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -46,6 +52,9 @@ h3 {
 
 .h1-blue {
   color: #172b4d;
+  max-width: 650px;
+  justify-self: center;
+  align-self: center;
 }
 
 .h1-green {
@@ -58,7 +67,6 @@ h3 {
   padding: 28px;
   padding-top: 57px;
   text-align: center;
-  max-width: 700px;
 }
 
 .text2 {
@@ -71,7 +79,6 @@ h3 {
   font-style: normal;
   font-size: 20px;
   padding-bottom: 25px;
-  max-width: 700px;
 }
 
 .social {
@@ -99,6 +106,7 @@ h3 {
   border: 1px solid #d0d9d4;
   width: 327px;
   height: 474px;
+  justify-self: center;
 }
 
 .cards-container {
@@ -159,20 +167,18 @@ h4 {
   background-image: none;
   grid-template-columns: 100%;
   grid-template-rows: auto auto auto;
+  background-image: url(images/About-back-1.svg), url(images/About-back-2.svg);
+  background-position-x: right, left;
+  background-position-y: top, bottom;
 }
 
 #about-tittle {
-  background-image: url("images/About-back-1.svg");
-  background-repeat: no-repeat;
-  background-position: right;
   padding: 27px 0 40px 0;
 }
 
 #resume-button {
-  background-image: url("images/About-back-2.svg");
   display: flex;
   justify-content: center;
-  background-repeat: no-repeat;
   padding-bottom: 30px;
 }
 
@@ -182,7 +188,7 @@ h4 {
   grid-template-columns: 327px;
   grid-template-rows: 352px 352px 352px;
   row-gap: 17px;
-  justify-content: center;
+  align-self: center;
 }
 
 .skill-cards {
@@ -275,15 +281,14 @@ textarea::placeholder {
 #contact-me {
   display: flex;
   flex-direction: column;
+  background: url(images/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
 #mail {
-  background: url(images/illustration-contact-form.svg);
-  background-repeat: no-repeat;
-  background-position: right;
-  width: 375px;
-  padding-top: 250px;
-  margin-top: -300px;
+  margin-top: -80px;
 }
 
 button:hover,
@@ -293,4 +298,9 @@ button:hover,
   border: 3px solid black;
   margin: -3px;
   cursor: pointer;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
 }

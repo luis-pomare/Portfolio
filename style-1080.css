@@ -2,7 +2,7 @@
   background: url("images/Header-llustration-desktop.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  padding-bottom: 500px;
+  padding-bottom: 200px;
   padding-top: 180px;
   background-position-x: center;
 }
@@ -15,8 +15,45 @@ br{
   display: none;
 }
 
+p{
+  max-width: 700px;
+}
+
 .cards-container {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 474px 474px;
   gap: 17px;
+}
+
+#skills {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 354px;
+  gap: 17px;
+  max-width: 1007px;
+}
+
+#contact-me {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  justify-content: space-around;
+}
+
+form{
+  align-items: space-between;
+  padding: 0%;
+  margin: 0%;
+}
+
+#mail {
+  display: none;
+}
+
+#submit {
+  align-self: flex-start;
+}
+
+.about-header{
+  background-image: url(images/illustration-about-me-1-desktop.svg), url(images/illustration-about-me-2-desktop.svg);
+  background-position-x: right, left;
+  background-position-y: top, bottom;
 }

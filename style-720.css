@@ -3,3 +3,21 @@
   grid-template-rows: 474px 474px 474px;
   gap: 17px;
 }
+
+#skills {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 354px 354px;
+  gap: 17px;
+}
+
+#about-tittle, #resume-button {
+  background-image: none;
+}
+
+br {
+  display: none;
+}
+
+p{
+  max-width: 530px;
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" media="all and (min-width: 720px)" href="style-720.css" />
-    <link rel="stylesheet" media="all and (min-width: 900px)" href="style-1080.css" />
+    <link rel="stylesheet" media="all and (min-width: 1080px)" href="style-1080.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,6 +20,9 @@
     <title>Luis Pomare</title>
   </head>
   <body>
+    <section id="toolbar-desktop">
+
+    </section>
     <section class="toolbar">
       <h2 class="welcome">Welcome</h2>
       <nav class="menu-container">
@@ -33,9 +36,9 @@
       </h3>
       <h1 class="h1-green">I'm a software<br />developer</h1>
       <p class="text1">
-        I can help you build a product , feature or website Look through some of
-        my work and experience! If you like what you see and have a project you
-        need coded, don't hestiate to contact me.
+        I can help you build a product,<br>feature or website Look through<br>some of
+        my work and experience!<br>If you like what you see and have<br>a project you
+        need coded,<br>don't hestiate to contact me.
       </p>
       <section class="social">
         <i class="fab fa-twitter"></i>
@@ -189,7 +192,7 @@
             <li class="skill-li">Selenium</li>
           </ul>
         </article>
-        <article class="skill-cards">
+        <article class="skill-cards" id="skill-3">
           <img
             src="images/icon-skills.svg"
             alt="icon-skills"
@@ -216,7 +219,10 @@
         chat please get <br />
         in touch.
       </h3>
-      <form action="https://formspree.io/f/mjvlgbyr" method="post">
+      <form
+        action="https://formspree.io/f/mjvlgbyr"
+        method="post"
+      >
         <input
           name="Full_name"
           type="text"
@@ -239,22 +245,23 @@
           maxlength="500"
           required
         ></textarea>
-        <button type="submit">
+        <button type="submit" id="submit">
           Get in touch
         </button>
       </form>
-      <section class="social">
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-linkedin-in"></i>
-        <i class="fab fa-medium-m"></i>
-        <i class="fab fa-github"></i>
-        <i class="fab fa-angellist"></i>
-      </section>
-      <p
+    </section>
+    <hr>
+    <section class="social" id="social-2">
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-medium-m"></i>
+      <i class="fab fa-github"></i>
+      <i class="fab fa-angellist"></i>
+    </section>
+    <p
         class="social"
           id="mail"
         >luispomare92@gmail.com
-      </p>
-    </section>
+    </p>
   </body>
 </html>
