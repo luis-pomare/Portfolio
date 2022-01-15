@@ -2,7 +2,13 @@
 
 # My portfolio
 
-In this web page, you are going to find all the proyects I have worked on. 
+This is my profesional portfolio as a web developer...
+It contains all the proyects I've been working on:
+
+## Live demo
+
+https://luis-pomare.github.io/Portfolio/
+
 ![screenshot of the page](./app_screenshot.png)
 
 
@@ -10,6 +16,7 @@ In this web page, you are going to find all the proyects I have worked on.
 
 -CSS ,HTML 
 
+## 
 
 ## Authors
 

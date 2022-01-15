@@ -1,0 +1,87 @@
+#main-header {
+  background: url("images/Header-llustration-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0;
+  background-position-x: center;
+  width: 100%;
+  padding-bottom: 180px;
+}
+
+.toolbar {
+  display: none;
+}
+
+br {
+  display: none;
+}
+
+p {
+  max-width: 700px;
+}
+
+.cards-container {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 474px 474px;
+  gap: 17px;
+}
+
+#skills {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 354px;
+  gap: 17px;
+  max-width: 1007px;
+}
+
+#contact-me {
+  display: grid;
+  grid-template-columns: 30% 50%;
+  justify-content: space-around;
+  background-image: url(images/illustration-1-contact-form-desktop.svg), url(images/illustration-2-contact-form-desktop.svg), url(images/illustration-3-contact-form-desktop.svg);
+  background-position-x: left, 30%, right;
+  background-position-y: bottom, bottom, bottom;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  padding-bottom: 300px;
+}
+
+form {
+  padding: 0%;
+  margin: 0%;
+}
+
+#mail {
+  display: none;
+}
+
+#submit {
+  align-self: flex-start;
+}
+
+.about-header {
+  background-image: url(images/illustration-about-me-1-desktop.svg), url(images/illustration-about-me-2-desktop.svg);
+  background-position-x: right, left;
+  background-position-y: top, bottom;
+}
+
+#toolbar-desktop {
+  display: flex;
+  justify-content: center;
+}
+
+.toolbar-text {
+  padding: 15px;
+  padding-bottom: 150px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #28352f;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #dfe1e6;
+}
+
+#social-2 {
+  padding-bottom: 0;
+}

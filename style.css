@@ -5,6 +5,12 @@
   font-family: "Inter", sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -24,8 +30,12 @@ header {
   flex-direction: column;
   align-items: center;
   padding-top: 75px;
-  background-image: url("images/header-background.svg");
   background-repeat: no-repeat;
+}
+
+#main-header {
+  background-image: url("images/header-background.svg");
+  background-size: cover;
 }
 
 h1 {
@@ -42,6 +52,9 @@ h3 {
 
 .h1-blue {
   color: #172b4d;
+  max-width: 650px;
+  justify-self: center;
+  align-self: center;
 }
 
 .h1-green {
@@ -57,6 +70,7 @@ h3 {
 }
 
 .text2 {
+  justify-self: center;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0;
@@ -76,15 +90,12 @@ h3 {
   color: #505f79;
   font-size: 20px;
   align-self: center;
+  max-width: 225px;
 }
 
 .works-container {
   display: grid;
   justify-content: center;
-}
-
-.works-header {
-  background: none;
 }
 
 .cards {
@@ -95,6 +106,7 @@ h3 {
   border: 1px solid #d0d9d4;
   width: 327px;
   height: 474px;
+  justify-self: center;
 }
 
 .cards-container {
@@ -152,23 +164,20 @@ h4 {
 
 .about-header {
   display: grid;
-  background-image: none;
   grid-template-columns: 100%;
   grid-template-rows: auto auto auto;
+  background-image: url(images/About-back-1.svg), url(images/About-back-2.svg);
+  background-position-x: right, left;
+  background-position-y: top, bottom;
 }
 
 #about-tittle {
-  background-image: url("images/About-back-1.svg");
-  background-repeat: no-repeat;
-  background-position: right;
   padding: 27px 0 40px 0;
 }
 
 #resume-button {
-  background-image: url("images/About-back-2.svg");
   display: flex;
   justify-content: center;
-  background-repeat: no-repeat;
   padding-bottom: 30px;
 }
 
@@ -178,7 +187,7 @@ h4 {
   grid-template-columns: 327px;
   grid-template-rows: 352px 352px 352px;
   row-gap: 17px;
-  justify-content: center;
+  align-self: center;
 }
 
 .skill-cards {
@@ -271,15 +280,14 @@ textarea::placeholder {
 #contact-me {
   display: flex;
   flex-direction: column;
+  background: url(images/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
 #mail {
-  background: url(images/illustration-contact-form.svg);
-  background-repeat: no-repeat;
-  background-position: right;
-  width: 375px;
-  padding-top: 250px;
-  margin-top: -300px;
+  margin-top: -80px;
 }
 
 button:hover,
@@ -289,4 +297,13 @@ button:hover,
   border: 3px solid black;
   margin: -3px;
   cursor: pointer;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+#toolbar-desktop {
+  display: none;
 }
