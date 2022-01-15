@@ -316,3 +316,6 @@ button:hover,
   display: none;
 }
 
+#contact-text:hover{
+  transform: translate(50px,30px);
+}
