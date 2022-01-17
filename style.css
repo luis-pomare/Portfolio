@@ -324,13 +324,3 @@ button:hover,
 .h1-green {
   animation: Rotating_text 3s ease;
 }
-
-@keyframes Rotating_text {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
