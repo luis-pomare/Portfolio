@@ -122,6 +122,10 @@ h3 {
   flex-grow: 1;
 }
 
+.cards:hover {
+  transform: scale(1.1);
+}
+
 .card-info {
   display: grid;
   grid-template: auto 1fr 1fr/1fr;
@@ -129,6 +133,10 @@ h3 {
   border-radius: 8px;
   padding: 16px 10px 18px 10px;
   background-color: white;
+}
+
+img:hover {
+  transform: scale(1.2);
 }
 
 h4 {
@@ -306,4 +314,13 @@ button:hover,
 
 #toolbar-desktop {
   display: none;
+}
+
+#contact-text:hover {
+  transform: translate(50px, 30px);
+}
+
+.h1-blue,
+.h1-green {
+  animation: Rotating_text 3s ease;
 }
