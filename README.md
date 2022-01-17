@@ -5,10 +5,9 @@
 This is my profesional portfolio as a web developer...
 It contains all the proyects I've been working on:
 
-## Live demo
-
+## Online version
 https://luis-pomare.github.io/Portfolio/
-
+## Preview image
 ![screenshot of the page](./app_screenshot.png)
 
 
