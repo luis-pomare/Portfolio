@@ -20,6 +20,7 @@ body {
 }
 
 .welcome {
+  display: inline-block;
   font-size: 20px;
   color: #28352f;
   font-weight: bold;
@@ -59,6 +60,9 @@ h3 {
 
 .h1-green {
   color: #36b37e;
+  font-size: 38px;
+  font-weight: bold; 
+  text-align: center;
 }
 
 .text1 {
