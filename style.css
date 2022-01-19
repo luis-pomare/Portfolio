@@ -20,6 +20,7 @@ body {
 }
 
 .welcome {
+  display: inline-block;
   font-size: 20px;
   color: #28352f;
   font-weight: bold;
@@ -59,6 +60,9 @@ h3 {
 
 .h1-green {
   color: #36b37e;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .text1 {
@@ -215,7 +219,7 @@ h4 {
 }
 
 .skill-li {
-  color: #36b37e;
+  color: #247855;
   font-size: 12px;
   font-weight: bold;
   height: 20px;
@@ -236,7 +240,7 @@ h4 {
 
 button {
   justify-self: center;
-  background: #36b37f;
+  background: #247855;
   padding: 12px;
   font-weight: 500;
   border-radius: 4px;
