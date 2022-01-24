@@ -1,16 +1,65 @@
 let menu = document.querySelector("#menu-icon");
+let div = document.createElement('div');
 
 menu.addEventListener("click", function () {
-  document.getElementById("menu-icon").src =
-    "images/close-movile-menu-Icon.svg";
-let li = document.createElement('li');
-li.textContent = 'Products';
-menu.appendChild(li);
+    if (menu.classList.contains("showMenu")) {
+      removeMenuIcon();
+      removeMenuItems();
+      location.reload();
+    }
+    else {
+      addMenuItems();
 
-li = document.createElement('li');
-li.textContent = 'About Us';
-
-// select the ul menu element
-const menu = document.querySelector('#menu');
-menu.appendChild(li);
+    }
 });
+
+
+
+function addMenuIcon (){
+  document.getElementById("menu-icon").src =
+  "images/close-movile-menu-Icon.svg";
+  menu.classList.add('showMenu')
+}
+
+function removeMenuIcon (){
+  document.getElementById("menu-icon").src =
+  "images/menu.svg";
+  menu.classList.remove('showMenu');
+}
+
+function addMenuItems(){
+  addMenuIcon();
+
+  // let div = document.createElement('div');
+  div.id = 'contentrich';
+  div.className = 'noterich';
+
+  // create a tag and add it to the div
+  let myAa = document.createElement('a');
+  myAa.textContent = 'Portfolio';
+  myAa.href ="#";
+  div.appendChild(myAa);
+
+  let myAb = document.createElement('a');
+  myAb.textContent = 'About';
+  myAb.href ="#";
+  div.appendChild(myAb);
+
+  let myAc = document.createElement('a');
+  myAc.textContent = 'Contact';
+  myAc.href ="#";
+  div.appendChild(myAc);
+
+
+  // add div to the document
+  document.body.appendChild(div);
+
+
+}
+
+
+function removeMenuItems (){
+   document.body.removeChild(div);
+ let menuRemove = document.querySelectorAll("#contentrich");
+
+}
