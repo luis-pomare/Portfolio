@@ -5,7 +5,6 @@ menu.addEventListener("click", function () {
     if (menu.classList.contains("showMenu")) {
       removeMenuIcon();
       removeMenuItems();
-      location.reload();
     }
     else {
       addMenuItems();
@@ -50,16 +49,12 @@ function addMenuItems(){
   myAc.href ="#";
   div.appendChild(myAc);
 
-
   // add div to the document
   document.body.appendChild(div);
-
-
 }
 
 
 function removeMenuItems (){
-   document.body.removeChild(div);
- let menuRemove = document.querySelectorAll("#contentrich");
-
+document.body.lastChild.innerHTML = '';
+document.getElementById('contentrich').classList.toggle('visible-div')
 }

@@ -1,3 +1,7 @@
+.visible-div {
+  display: none !important;
+}
+
 #menu-icon {
   margin-right: 30px;
   }
