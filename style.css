@@ -1,20 +1,20 @@
-.visible-div {
-  display: none !important;
+.visible-nav {
+  display: none;
 }
 
-#menu-icon {
-  margin-right: 30px;
-  }
-
-  #contentrich {
+#contentrich {
   display: flex;
   flex-direction: column;
   position: absolute;
-  width: 80%;
-  height: 100%;
+  width: 90%;
+  height: 80%;
   background-color: #fff;
+  align-items: flex-start;
+  z-index: 1;
+}
 
-
+.menu {
+  z-index: 3;
 }
 
 #contentrich a {
@@ -25,11 +25,9 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  color: #3A4A42;
+  color: #3a4a42;
   text-decoration: none;
 }
-
-
 
 * {
   margin: 0;
@@ -128,6 +126,14 @@ h3 {
   font-size: 20px;
   align-self: center;
   max-width: 225px;
+}
+
+#social-2 {
+  padding-bottom: 15px;
+}
+
+#mail {
+  padding-top: 15px;
 }
 
 .works-container {
@@ -331,10 +337,6 @@ textarea::placeholder {
   background-position-y: bottom;
 }
 
-#mail {
-  margin-top: -80px;
-}
-
 button:hover,
 #submit:hover {
   background-color: white;
@@ -347,6 +349,7 @@ button:hover,
 .about {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #toolbar-desktop {
@@ -355,4 +358,10 @@ button:hover,
 
 #contact-text:hover {
   transform: translate(50px, 30px);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

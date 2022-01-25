@@ -37,7 +37,9 @@ p {
   display: grid;
   grid-template-columns: 30% 50%;
   justify-content: space-around;
-  background-image: url(images/illustration-1-contact-form-desktop.svg), url(images/illustration-2-contact-form-desktop.svg), url(images/illustration-3-contact-form-desktop.svg);
+  background-image: url(images/illustration-1-contact-form-desktop.svg),
+    url(images/illustration-2-contact-form-desktop.svg),
+    url(images/illustration-3-contact-form-desktop.svg);
   background-position-x: left, 30%, right;
   background-position-y: bottom, bottom, bottom;
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -58,7 +60,8 @@ form {
 }
 
 .about-header {
-  background-image: url(images/illustration-about-me-1-desktop.svg), url(images/illustration-about-me-2-desktop.svg);
+  background-image: url(images/illustration-about-me-1-desktop.svg),
+    url(images/illustration-about-me-2-desktop.svg);
   background-position-x: right, left;
   background-position-y: top, bottom;
 }
@@ -80,8 +83,4 @@ footer {
   display: flex;
   justify-content: center;
   border-top: 2px solid #dfe1e6;
-}
-
-#social-2 {
-  padding-bottom: 0;
 }
