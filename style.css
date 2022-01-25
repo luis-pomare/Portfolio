@@ -1,6 +1,6 @@
 .showMenu {
   width: 100%;
-  height: 755px;
+  height: 100vh;
   position: fixed;
   left: 0px;
   top: 0px;
@@ -8,11 +8,22 @@
   z-index: 2;
   display: flex;
   flex-direction: column;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 30px;
 }
 
 .showMenu .menu {
   align-self: flex-end;
   padding: 38px 38px 34px 0px;
+}
+
+.menu-invisible {
+  display: none;
 }
 
 #contentrich {
@@ -340,7 +351,7 @@ textarea::placeholder {
 #contact-me {
   display: flex;
   flex-direction: column;
-  background: url(images/illustration-contact-form.svg);
+  background: url("images/illustration-contact-form.svg");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
