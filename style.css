@@ -1,5 +1,18 @@
-.visible-nav {
-  display: none;
+.showMenu {
+  width: 100%;
+  height: 755px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.showMenu .menu {
+  align-self: flex-end;
+  padding: 38px 38px 34px 0px;
 }
 
 #contentrich {
@@ -11,10 +24,6 @@
   background-color: #fff;
   align-items: flex-start;
   z-index: 1;
-}
-
-.menu {
-  z-index: 3;
 }
 
 #contentrich a {
