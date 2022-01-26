@@ -1,3 +1,67 @@
+.anchor {
+  font-style: normal;
+  text-decoration: none;
+  color: #3a4a42;
+}
+
+.anchor:visited,
+.showMenu {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0;
+  text-align: left;
+  padding-left: 30px;
+}
+
+#icon-container {
+  list-style: none;
+  text-decoration: none;
+}
+
+.showMenu .menu {
+  align-self: flex-end;
+  padding-top: 30px;
+  padding-right: 68px;
+  padding-bottom: 17px;
+}
+
+.menu-invisible {
+  display: none;
+}
+
+#contentrich {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  background-color: #fff;
+  align-items: flex-start;
+  z-index: 1;
+}
+
+#contentrich a {
+  margin: 10px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -95,6 +159,14 @@ h3 {
   font-size: 20px;
   align-self: center;
   max-width: 225px;
+}
+
+#social-2 {
+  padding-bottom: 15px;
+}
+
+#mail {
+  padding-top: 15px;
 }
 
 .works-container {
@@ -292,14 +364,10 @@ textarea::placeholder {
 #contact-me {
   display: flex;
   flex-direction: column;
-  background: url(images/illustration-contact-form.svg);
+  background: url("images/illustration-contact-form.svg");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
-}
-
-#mail {
-  margin-top: -80px;
 }
 
 button:hover,
@@ -314,6 +382,7 @@ button:hover,
 .about {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #toolbar-desktop {
@@ -322,4 +391,10 @@ button:hover,
 
 #contact-text:hover {
   transform: translate(50px, 30px);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
