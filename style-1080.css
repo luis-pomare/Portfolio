@@ -86,3 +86,9 @@ footer {
   justify-content: center;
   border-top: 2px solid #dfe1e6;
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
