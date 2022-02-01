@@ -35,7 +35,6 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "UA-217422335-1");
     </script>
     <title>Luis Pomare web portfolio</title>
@@ -75,7 +74,7 @@
         <i class="fab fa-github"></i>
         <i class="fab fa-angellist"></i>
       </section>
-      <img src="images/Action.svg" alt="Action icon" />
+      <img src="images/Action.svg" alt="Action icon" class="baseImg" />
     </header>
     <section class="works-container">
       <header class="works-header">
@@ -83,7 +82,11 @@
           My Recent<br />
           Works
         </h3>
-        <img src="images/Indicator.svg" alt="Works title Indicator" />
+        <img
+          src="images/Indicator.svg"
+          alt="Works title Indicator"
+          class="baseImg"
+        />
       </header>
       <section class="cards-container">
         <article class="cards">
@@ -98,7 +101,14 @@
                 <li class="blue-li">html</li>
               </ul>
             </section>
-            <button class="green-button" tabindex="8">See Project</button>
+            <button
+              id="firstCardButton"
+              type="button"
+              class="green-button"
+              tabindex="8"
+            >
+              See Project
+            </button>
           </section>
         </article>
         <article class="cards">
@@ -113,7 +123,14 @@
                 <li class="blue-li">html</li>
               </ul>
             </section>
-            <button class="green-button" tabindex="10">See Project</button>
+            <button
+              id="secondCardButton"
+              type="button"
+              class="green-button"
+              tabindex="10"
+            >
+              See Project
+            </button>
           </section>
         </article>
         <article class="cards">
@@ -128,7 +145,14 @@
                 <li class="blue-li">html</li>
               </ul>
             </section>
-            <button class="green-button" tabindex="12">See Project</button>
+            <button
+              id="thirdCardButton"
+              type="button"
+              class="green-button"
+              tabindex="12"
+            >
+              See Project
+            </button>
           </section>
         </article>
         <article class="cards">
@@ -143,7 +167,14 @@
                 <li class="blue-li">html</li>
               </ul>
             </section>
-            <button class="green-button" tabindex="14">See Project</button>
+            <button
+              id="fourthCardButton"
+              type="button"
+              class="green-button"
+              tabindex="14"
+            >
+              See Project
+            </button>
           </section>
         </article>
         <article class="cards">
@@ -158,7 +189,14 @@
                 <li class="blue-li">html</li>
               </ul>
             </section>
-            <button class="green-button" tabindex="16">See Project</button>
+            <button
+              id="fifthCardButton"
+              type="button"
+              class="green-button"
+              tabindex="16"
+            >
+              See Project
+            </button>
           </section>
         </article>
         <article class="cards">
@@ -173,7 +211,14 @@
                 <li class="blue-li">html</li>
               </ul>
             </section>
-            <button class="green-button" tabindex="18">See Project</button>
+            <button
+              id="sixthCardButton"
+              type="button"
+              class="green-button"
+              tabindex="18"
+            >
+              See Project
+            </button>
           </section>
         </article>
       </section>
@@ -188,7 +233,7 @@
           contact me.
         </p>
         <section id="resume-button">
-          <button class="green-button">Get My Resume</button>
+          <button type="button" class="green-button">Get My Resume</button>
         </section>
       </header>
       <section id="skills">
@@ -196,7 +241,7 @@
           <img
             src="images/icon-languages.svg"
             alt="icon-languages"
-            class="skill-img"
+            class="skill-img baseImg"
           />
           <h4>Languages</h4>
           <ul class="skill-ul">
@@ -210,7 +255,7 @@
           <img
             src="images/icon-frameworks.svg"
             alt="icon-frameworks"
-            class="skill-img"
+            class="skill-img baseImg"
           />
           <h4>Frameworks</h4>
           <ul class="skill-ul">
@@ -225,7 +270,7 @@
           <img
             src="images/icon-skills.svg"
             alt="icon-skills"
-            class="skill-img"
+            class="skill-img baseImg"
           />
           <h4>Skills</h4>
           <ul class="skill-ul">
@@ -285,5 +330,6 @@
       </section>
       <p class="social" id="mail">luispomare92@gmail.com</p>
     </footer>
+    <script src="dynamics.js"></script>
   </body>
 </html>

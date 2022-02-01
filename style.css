@@ -147,7 +147,7 @@ h3 {
   background-color: white;
 }
 
-img:hover {
+.baseImg:hover {
   transform: scale(1.2);
 }
 
@@ -333,4 +333,39 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* Dynamic elements style */
+#dynamicNav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+#firstMenuElement,
+#secondMenuElement,
+#thirdMenuElement,
+#firstMenuElement:visited {
+  text-decoration: none;
+  color: #3a4a42;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 0;
+  text-align: left;
+  padding-left: 28px;
+}
+
+#closerIcon {
+  align-self: flex-end;
+  padding-top: 32px;
+  padding-right: 38px;
 }
