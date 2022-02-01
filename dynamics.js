@@ -14,6 +14,19 @@ const closerIcon = document.createElement('img');
 closerIcon.id = 'closerIcon';
 closerIcon.src = 'images/close-mobile-menu-Icon.svg';
 
+// Create popup containers
+let popupContainerMobile = document.createElement('div');
+let imagesContainerMobile = document.createElement('div');
+let toolsContainerMobile = document.createElement('div');
+let textContainerMobile = document.createElement('div');
+let buttonsContainerMobile = document.createElement('div');
+
+// Put popup mobile sub-containers in the main container
+popupContainerMobile.appendChild(imagesContainerMobile);
+popupContainerMobile.appendChild(toolsContainerMobile);
+popupContainerMobile.appendChild(textContainerMobile);
+popupContainerMobile.appendChild(buttonsContainerMobile);
+
 //  Create Links to the sections of the page
 const firstMenuElement = document.createElement('a');
 const secondMenuElement = document.createElement('a');
@@ -48,3 +61,26 @@ closerIcon.addEventListener('click', deactiveMenu);
 firstMenuElement.addEventListener('click', deactiveMenu);
 secondMenuElement.addEventListener('click', deactiveMenu);
 thirdMenuElement.addEventListener('click', deactiveMenu);
+
+// set classes and id
+popupContainerMobile.id = 'popupContainerMobile';
+imagesContainerMobile.id = 'imagesContainerMobile';
+toolsContainerMobile.id = 'toolsContainerMobile';
+textContainerMobile.id = 'textContainerMobile';
+buttonsContainerMobile.id = 'buttonsContainerMobile';
+
+//
+let name;
+let description;
+let image;
+let tools;
+let LiveVersion;
+let source;
+
+//
+const button1 = document.getElementById('firstCardButton');
+const button2 = document.getElementById('secondCardButton');
+const button3 = document.getElementById('thirdCardButton');
+const button4 = document.getElementById('fourthCardButton');
+const button5 = document.getElementById('fifthCardButton');
+const button6 = document.getElementById('sixthCardButton');
