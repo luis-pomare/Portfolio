@@ -339,13 +339,13 @@ footer {
   align-items: center;
 }
 
-/* Dynamic elements style*/
+/* Dynamic elements style */
 #dynamicNav {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   background-color: white;
@@ -356,17 +356,14 @@ footer {
 #firstMenuElement,
 #secondMenuElement,
 #thirdMenuElement,
-#firstMenuElement:visited,
-#secondMenuElement,
-#thirdMenuElement {
+#firstMenuElement:visited {
   text-decoration: none;
   color: #3a4a42;
-  font-family: Inter;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 70px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   padding-left: 28px;
 }
@@ -377,7 +374,7 @@ footer {
   padding-right: 38px;
 }
 
-/*Recent work pop ups*/
+/* Recent work pop ups */
 #popupContainer2 {
   margin: 16px;
   padding: 16px;
@@ -400,6 +397,7 @@ footer {
   z-index: 3;
   display: grid;
   align-content: flex-start;
+  max-height: 912px;
 }
 
 #popupCloser {
@@ -407,7 +405,6 @@ footer {
   position: fixed;
   top: 50px;
   right: 10.5%;
-  
 }
 
 #cardButtonContainer {
@@ -431,6 +428,7 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
+  max-width: 100%;
 }
