@@ -19,6 +19,10 @@ body {
   padding-bottom: 10px;
 }
 
+.toolbar-text {
+  text-decoration: none;
+}
+
 .welcome {
   display: inline-block;
   font-size: 20px;
@@ -335,13 +339,13 @@ footer {
   align-items: center;
 }
 
-/* Dynamic elements style */
+/* Dynamic elements style*/
 #dynamicNav {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   width: 100vw;
   height: 100vh;
   background-color: white;
@@ -352,14 +356,17 @@ footer {
 #firstMenuElement,
 #secondMenuElement,
 #thirdMenuElement,
-#firstMenuElement:visited {
+#firstMenuElement:visited,
+#secondMenuElement,
+#thirdMenuElement {
   text-decoration: none;
   color: #3a4a42;
+  font-family: Inter;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 70px;
-  letter-spacing: 0;
+  letter-spacing: 0em;
   text-align: left;
   padding-left: 28px;
 }
@@ -368,4 +375,61 @@ footer {
   align-self: flex-end;
   padding-top: 32px;
   padding-right: 38px;
+}
+
+/*Recent work pop ups*/
+#popupContainer2 {
+  margin: 16px;
+  padding: 16px;
+  max-width: 93vw;
+  height: 93vh;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  max-height: 836px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+#popupContainer1 {
+  position: fixed;
+  background-color: rgb(193, 199, 208, 0.7);
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  display: grid;
+  align-content: flex-start;
+}
+
+#popupCloser {
+  align-self: flex-end;
+  position: relative;
+  top: -200px;
+  right: 20px;
+}
+
+#cardButtonContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#technologiesList {
+  justify-content: flex-start;
+  gap: 12px;
+  padding-bottom: 15px;
+}
+
+#popupTittle {
+  text-align: left;
+}
+
+#popupParagraph {
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
