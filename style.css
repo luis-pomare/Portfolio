@@ -404,9 +404,10 @@ footer {
 
 #popupCloser {
   align-self: flex-end;
-  position: relative;
-  top: -200px;
-  right: 20px;
+  position: fixed;
+  top: 50px;
+  right: 10.5%;
+  
 }
 
 #cardButtonContainer {
