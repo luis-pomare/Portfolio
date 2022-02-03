@@ -24,15 +24,40 @@ p {
 }
 
 /* Dynamic objects style */
-#cardButtonContainer {
-  top: -230px;
-  position: relative;
-  justify-content: flex-end;
-  gap: 17px;
-  padding-top: 15px;
+#popupCloser {
+  width: 30px;
+  top: 12%;
+  position: static;
+  filter: invert(1);
+  background-color: #1f1f1f;
+  padding: 7px;
+  margin-top: 10px;
+  border-radius: 8px;
+  justify-self: end;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
-#popupTittle {
-  text-align: left;
-  padding-top: 15px;
+#popupContainer2 {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  row-gap: 20px;
+  border-radius: 16px;
+}
+
+#popupImageContainer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#technologiesList {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  order: 1;
+}
+
+#popupParagraph {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  order: 1;
 }

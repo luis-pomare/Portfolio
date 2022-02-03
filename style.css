@@ -376,35 +376,29 @@ footer {
 
 /* Recent work pop ups */
 #popupContainer2 {
-  margin: 16px;
-  padding: 16px;
-  max-width: 93vw;
-  height: 93vh;
-  align-self: center;
+  padding: 0px 16px 16px 16px;
   display: flex;
   flex-direction: column;
-  max-height: 836px;
   background-color: white;
   border-radius: 10px;
+  height: 92%;
+  width: 80%;
   overflow: scroll;
+  max-width: 920px;
 }
 
 #popupContainer1 {
+  top: 0px;
+  right: 0px;
   position: fixed;
   background-color: rgb(193, 199, 208, 0.7);
-  width: 100vw;
-  height: 100vh;
   z-index: 3;
-  display: grid;
-  align-content: flex-start;
-  max-height: 912px;
-}
-
-#popupCloser {
-  align-self: flex-end;
-  position: fixed;
-  top: 50px;
-  right: 10.5%;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #cardButtonContainer {
@@ -431,4 +425,17 @@ footer {
   letter-spacing: 0;
   text-align: left;
   max-width: 100%;
+}
+
+#popupImageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#popupCloser {
+  position: relative;
+  top: 6%;
+  right: 10%;
+  align-self: flex-end;
+  cursor: pointer;
 }
