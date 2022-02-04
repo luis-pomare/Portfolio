@@ -250,7 +250,8 @@ h4 {
   flex-basis: auto;
 }
 
-button {
+button,
+.green-button {
   justify-self: center;
   background: #247855;
   padding: 12px;
@@ -260,6 +261,7 @@ button {
   letter-spacing: 0.03em;
   align-self: center;
   z-index: 1;
+  text-decoration: none;
 }
 
 form {
@@ -376,7 +378,7 @@ footer {
 
 /* Recent work pop ups */
 #popupContainer2 {
-  padding: 0px 16px 16px 16px;
+  padding: 0 16px 16px 16px;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -389,8 +391,8 @@ footer {
 }
 
 #popupContainer1 {
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   position: fixed;
   background-color: rgb(193, 199, 208, 0.7);
   z-index: 3;
