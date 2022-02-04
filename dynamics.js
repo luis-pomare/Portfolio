@@ -167,7 +167,26 @@ popupCardButtonIcon1.src = "images/popupCardButtonIcon1.svg";
 popupCardButtonIcon2.src = "images/popupCardButtonIcon2.svg";
 
 //  Assing information from objects and add them to the page
-function refreshPopup(currentObject) {
+function refreshPopup(id) {
+  let currentObject;
+  if (id == firstCardButton.id) {
+    currentObject = masterArray[0];
+  }
+  if (id == secondCardButton.id) {
+    currentObject = masterArray[1];
+  }
+  if (id == thirdCardButton.id) {
+    currentObject = masterArray[2];
+  }
+  if (id == fourthCardButton.id) {
+    currentObject = masterArray[3];
+  }
+  if (id == fifthCardButton.id) {
+    currentObject = masterArray[4];
+  }
+  if (id == sixthCardButton.id) {
+    currentObject = masterArray[5];
+  }
   const [a, b, c] = currentObject.technologies;
   projectImage.src = currentObject.image;
   firstTechnology.innerText = a;
@@ -183,27 +202,27 @@ function refreshPopup(currentObject) {
 
 //  Click actions to the work card buttons
 firstCardButton.addEventListener("click", () => {
-  refreshPopup(masterArray[0]);
+  refreshPopup(firstCardButton.id);
 });
 
 secondCardButton.addEventListener("click", () => {
-  refreshPopup(masterArray[1]);
+  refreshPopup(secondCardButton.id);
 });
 
 thirdCardButton.addEventListener("click", () => {
-  refreshPopup(masterArray[2]);
+  refreshPopup(thirdCardButton.id);
 });
 
 fourthCardButton.addEventListener("click", () => {
-  refreshPopup(masterArray[3]);
+  refreshPopup(fourthCardButton.id);
 });
 
 fifthCardButton.addEventListener("click", () => {
-  refreshPopup(masterArray[4]);
+  refreshPopup(fifthCardButton.id);
 });
 
 sixthCardButton.addEventListener("click", () => {
-  refreshPopup(masterArray[5]);
+  refreshPopup(sixthCardButton.id);
 });
 
 // Click actions to the dynamic elements
