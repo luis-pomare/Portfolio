@@ -449,3 +449,9 @@ footer {
 .visible {
   display: flex;
 }
+
+#errorMessage {
+  background-color: #36b37e;
+  border-radius: 4px;
+  align-self: flex-start;
+}
