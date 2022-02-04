@@ -385,6 +385,7 @@ footer {
   width: 80%;
   overflow: scroll;
   max-width: 920px;
+  max-height: 1130px;
 }
 
 #popupContainer1 {
@@ -445,7 +446,4 @@ footer {
 
 .visible {
   display: flex;
-}
-
-#modalGreenButton {
 }

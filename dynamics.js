@@ -150,22 +150,6 @@ const popupCardButtonIcon1 = document.getElementById("popupCardButtonIcon1");
 const popupCardButtonIcon2 = document.getElementById("popupCardButtonIcon2");
 const popupImageContainer = document.getElementById("popupImageContainer");
 
-//  Add classes and aditional characteristics
-popupParagraph.classList.add("text2");
-technologiesList.classList.add("ul-with");
-firstTechnology.classList.add("blue-li");
-secondTechnology.classList.add("blue-li");
-thirdTechnology.classList.add("blue-li");
-firstButton.classList.add("green-button");
-secondButton.classList.add("green-button");
-firstButton.innerText = "Live version   ";
-secondButton.innerText = "Source code   ";
-firstButtonAnchor.target = "_blank";
-secondButtonAnchor.target = "_blank";
-popupCloser.src = "images/popupCloserIcon.svg";
-popupCardButtonIcon1.src = "images/popupCardButtonIcon1.svg";
-popupCardButtonIcon2.src = "images/popupCardButtonIcon2.svg";
-
 //  Assing information from objects and add them to the page
 function refreshPopup(id) {
   let currentObject;
