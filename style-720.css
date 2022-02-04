@@ -22,3 +22,34 @@ br {
 p {
   max-width: 530px;
 }
+
+/* Dynamic objects style */
+#popupCloser {
+  width: 30px;
+  top: 12%;
+  position: static;
+  filter: invert(1);
+  background-color: #1f1f1f;
+  padding: 7px;
+  margin-top: 10px;
+  border-radius: 8px;
+  justify-self: end;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#popupContainer2 {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  row-gap: 20px;
+  border-radius: 16px;
+}
+
+.popupGrid {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.orderedGrid {
+  order: 1;
+}

@@ -79,7 +79,6 @@ form {
   font-size: 14px;
   font-weight: 600;
   color: #28352f;
-  text-decoration: none;
 }
 
 footer {
@@ -93,3 +92,5 @@ footer {
   flex-direction: column;
   align-items: stretch;
 }
+
+/*  Dynamic objects styles */

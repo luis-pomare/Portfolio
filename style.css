@@ -19,6 +19,10 @@ body {
   padding-bottom: 10px;
 }
 
+.toolbar-text {
+  text-decoration: none;
+}
+
 .welcome {
   display: inline-block;
   font-size: 20px;
@@ -144,7 +148,7 @@ h3 {
   height: 222px;
   border-radius: 8px;
   padding: 16px 10px 18px 10px;
-  background-color: white;
+  background-color: #fff;
 }
 
 .baseImg:hover {
@@ -246,7 +250,8 @@ h4 {
   flex-basis: auto;
 }
 
-button {
+button,
+.green-button {
   justify-self: center;
   background: #247855;
   padding: 12px;
@@ -256,6 +261,7 @@ button {
   letter-spacing: 0.03em;
   align-self: center;
   z-index: 1;
+  text-decoration: none;
 }
 
 form {
@@ -308,9 +314,9 @@ textarea::placeholder {
 
 button:hover,
 #submit:hover {
-  background-color: white;
-  color: black;
-  border: 3px solid black;
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #000;
   margin: -3px;
   cursor: pointer;
 }
@@ -344,7 +350,7 @@ footer {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: white;
+  background-color: #fff;
   align-items: flex-start;
   z-index: 2;
 }
@@ -368,4 +374,78 @@ footer {
   align-self: flex-end;
   padding-top: 32px;
   padding-right: 38px;
+}
+
+/* Recent work pop ups */
+#popupContainer2 {
+  padding: 0 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 92%;
+  width: 80%;
+  overflow: scroll;
+  max-width: 920px;
+  max-height: 1130px;
+}
+
+#popupContainer1 {
+  top: 0;
+  right: 0;
+  position: fixed;
+  background-color: rgb(193, 199, 208, 0.7);
+  z-index: 3;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cardButtonContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#technologiesList {
+  justify-content: flex-start;
+  gap: 12px;
+  padding-bottom: 15px;
+}
+
+#popupTittle {
+  text-align: left;
+}
+
+#popupParagraph {
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  max-width: 100%;
+}
+
+#popupImageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#popupCloser {
+  position: relative;
+  top: 15%;
+  right: 10%;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: flex;
 }
