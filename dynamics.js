@@ -128,47 +128,27 @@ const fourthCardButton = document.getElementById("fourthCardButton");
 const fifthCardButton = document.getElementById("fifthCardButton");
 const sixthCardButton = document.getElementById("sixthCardButton");
 
-//  Creating pop up containers
-const popupContainer1 = document.createElement("section");
-const popupContainer2 = document.createElement("article");
+//  Import pop up containers
+const popupContainer1 = document.getElementById("popupContainer1");
+const popupContainer2 = document.getElementById("popupContainer2");
 
-//  Create pop up card elements
-const popupCloser = document.createElement("img");
-const popupTittle = document.createElement("h4");
-const popupParagraph = document.createElement("p");
-const projectImage = document.createElement("img");
-const technologiesList = document.createElement("ul");
-const firstTechnology = document.createElement("li");
-const secondTechnology = document.createElement("li");
-const thirdTechnology = document.createElement("li");
-const firstButton = document.createElement("button");
-const secondButton = document.createElement("button");
-const firstButtonAnchor = document.createElement("a");
-const secondButtonAnchor = document.createElement("a");
-const cardButtonContainer = document.createElement("span");
-const popupCardButtonIcon1 = document.createElement("img");
-const popupCardButtonIcon2 = document.createElement("img");
-const popupImageContainer = document.createElement("span");
-
-//  Add id to each element
-popupCloser.id = "popupCloser";
-popupTittle.id = "popupTittle";
-popupParagraph.id = "popupParagraph";
-projectImage.id = "projectImage";
-technologiesList.id = "technologiesList";
-firstTechnology.id = "firstTechnology";
-secondTechnology.id = "secondTechnology";
-thirdTechnology.id = "thirdTechnology";
-firstButton.id = "firstButton";
-secondButton.id = "secondButton";
-firstButtonAnchor.id = "firstButtonAnchor";
-secondButtonAnchor.id = "secondButtonAnchor";
-popupContainer1.id = "popupContainer1"; // Background container
-popupContainer2.id = "popupContainer2"; // Main container (with all child elements)
-cardButtonContainer.id = "cardButtonContainer";
-popupCardButtonIcon1.id = "popupCardButtonIcon1";
-popupCardButtonIcon2.id = "popupCardButtonIcon2";
-popupImageContainer.id = "popupImageContainer";
+//  Import pop up card elements
+const popupCloser = document.getElementById("popupCloser");
+const popupTittle = document.getElementById("popupTittle");
+const popupParagraph = document.getElementById("popupParagraph");
+const projectImage = document.getElementById("projectImage");
+const technologiesList = document.getElementById("technologiesList");
+const firstTechnology = document.getElementById("firstTechnology");
+const secondTechnology = document.getElementById("secondTechnology");
+const thirdTechnology = document.getElementById("thirdTechnology");
+const firstButton = document.getElementById("firstButton");
+const secondButton = document.getElementById("secondButton");
+const firstButtonAnchor = document.getElementById("firstButtonAnchor");
+const secondButtonAnchor = document.getElementById("secondButtonAnchor");
+const cardButtonContainer = document.getElementById("cardButtonContainer");
+const popupCardButtonIcon1 = document.getElementById("popupCardButtonIcon1");
+const popupCardButtonIcon2 = document.getElementById("popupCardButtonIcon2");
+const popupImageContainer = document.getElementById("popupImageContainer");
 
 //  Add classes and aditional characteristics
 popupParagraph.classList.add("text2");
@@ -197,27 +177,9 @@ function refreshPopup(currentObject) {
   popupParagraph.innerText = currentObject.description;
   firstButtonAnchor.href = currentObject.live;
   secondButtonAnchor.href = currentObject.source;
-  document.body.appendChild(popupContainer1);
+  popupContainer1.classList.add("visible");
+  popupContainer1.classList.remove("invisible");
 }
-
-//  Add elements to containers
-technologiesList.appendChild(firstTechnology);
-technologiesList.appendChild(secondTechnology);
-technologiesList.appendChild(thirdTechnology);
-firstButton.appendChild(popupCardButtonIcon1);
-secondButton.appendChild(popupCardButtonIcon2);
-firstButtonAnchor.appendChild(firstButton);
-secondButtonAnchor.appendChild(secondButton);
-cardButtonContainer.appendChild(firstButtonAnchor);
-cardButtonContainer.appendChild(secondButtonAnchor);
-popupContainer2.appendChild(popupCloser);
-popupImageContainer.appendChild(projectImage);
-popupContainer2.appendChild(popupImageContainer);
-popupContainer2.appendChild(popupTittle);
-popupContainer2.appendChild(technologiesList);
-popupContainer2.appendChild(popupParagraph);
-popupContainer2.appendChild(cardButtonContainer);
-popupContainer1.appendChild(popupContainer2);
 
 //  Click actions to the work card buttons
 firstCardButton.addEventListener("click", () => {
@@ -247,5 +209,6 @@ sixthCardButton.addEventListener("click", () => {
 // Click actions to the dynamic elements
 //  Function to be call when icons are clicked
 popupCloser.addEventListener("click", () => {
-  popupContainer1.remove();
+  popupContainer1.classList.add("invisible");
+  popupContainer1.classList.remove("visible");
 });
