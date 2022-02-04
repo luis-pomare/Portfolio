@@ -45,19 +45,11 @@ p {
   border-radius: 16px;
 }
 
-#popupImageContainer {
+.popupGrid {
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
-#technologiesList {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  order: 1;
-}
-
-#popupParagraph {
-  grid-column-start: 1;
-  grid-column-end: 3;
+.orderedGrid {
   order: 1;
 }
