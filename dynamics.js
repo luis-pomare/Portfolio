@@ -208,3 +208,20 @@ popupCloser.addEventListener('click', () => {
   popupContainer1.classList.add('invisible');
   popupContainer1.classList.remove('visible');
 });
+
+const email = document.querySelector('email');
+const form = document.querySelector('contact-me');
+
+
+
+// Lowercase validation
+form.addEventListener('submit', (event) => {
+  const message = [];
+  if (email.value !== email.value.toLowerCase()) {
+    event.preventDefault();
+    message.push('The E-mail has to be in lowercase');
+  }
+  if (message.length > 0) {
+    error.innerText = message.join(', ');
+  }
+});
