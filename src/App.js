@@ -15,9 +15,9 @@ function App() {
       <About />
       <ContactMe />
       <Footer />
-      <section id='popupContainer1' class='invisible'>
+      <section id='popupContainer1' className='invisible'>
         <article id='popupContainer2'>
-          <span id='popupImageContainer' class='popupGrid'>
+          <span id='popupImageContainer' className='popupGrid'>
             <img id='popupCloser' src='images/popupCloserIcon.svg' alt='' />
             <img
               src='images/About-back-1.svg'
@@ -26,16 +26,16 @@ function App() {
             />
           </span>
           <h4 id='popupTittle'></h4>
-          <ul id='technologiesList' class='ul-with popupGrid orderedGrid'>
-            <li id='firstTechnology' class='blue-li'></li>
-            <li id='secondTechnology' class='blue-li'></li>
-            <li id='thirdTechnology' class='blue-li'></li>
+          <ul id='technologiesList' className='ul-with popupGrid orderedGrid'>
+            <li id='firstTechnology' className='blue-li'></li>
+            <li id='secondTechnology' className='blue-li'></li>
+            <li id='thirdTechnology' className='blue-li'></li>
           </ul>
-          <p id='popupParagraph' class='text2 popupGrid orderedGrid'></p>
+          <p id='popupParagraph' className='text2 popupGrid orderedGrid'></p>
           <span id='cardButtonContainer'>
             <a
               id='firstButton'
-              class='green-button'
+              className='green-button'
               href='google.com'
               target='_blank'
             >
@@ -48,7 +48,7 @@ function App() {
             </a>
             <a
               id='secondButton'
-              class='green-button'
+              className='green-button'
               href='google.com'
               target='_blank'
             >

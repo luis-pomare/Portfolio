@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <nav>
       <img
-        class='menu'
+        className='menu'
         src='images/menu.svg'
         alt='Navigation menu'
         id='menu-icon'

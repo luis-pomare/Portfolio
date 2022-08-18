@@ -4,26 +4,26 @@ export default function Header() {
   return (
     <header id='main-header'>
       <section id='toolbar-desktop'>
-        <a href='#portfolio' class='toolbar-text' tabindex='1'>
+        <a href='#portfolio' className='toolbar-text' tabIndex='1'>
           Portfolio
         </a>
-        <a href='#about-tittle' class='toolbar-text' tabindex='2'>
+        <a href='#about-tittle' className='toolbar-text' tabIndex='2'>
           About
         </a>
-        <a href='#contact-me' class='toolbar-text' tabindex='3'>
+        <a href='#contact-me' className='toolbar-text' tabIndex='3'>
           Contact
         </a>
       </section>
-      <h1 class='h1-blue' tabindex='3'>
+      <h1 className='h1-blue' tabIndex='3'>
         Hey there. I'm
         <br />
         Luis Pomare
       </h1>
-      <h2 class='h1-green' tabindex='4'>
+      <h2 className='h1-green' tabIndex='4'>
         I'm a software <br />
         developer
       </h2>
-      <p class='text1' tabindex='5'>
+      <p className='text1' tabIndex='5'>
         I can help you build a product,
         <br />
         feature or website Look through
@@ -35,14 +35,14 @@ export default function Header() {
         <br />
         don't hestiate to contact me.
       </p>
-      <section class='social' tabindex='6'>
-        <i class='fab fa-twitter'></i>
-        <i class='fab fa-linkedin-in'></i>
-        <i class='fab fa-medium-m'></i>
-        <i class='fab fa-github'></i>
-        <i class='fab fa-angellist'></i>
+      <section className='social' tabIndex='6'>
+        <i className='fab fa-twitter'></i>
+        <i className='fab fa-linkedin-in'></i>
+        <i className='fab fa-medium-m'></i>
+        <i className='fab fa-github'></i>
+        <i className='fab fa-angellist'></i>
       </section>
-      <img src='images/Action.svg' alt='Action icon' class='baseImg' />
+      <img src='images/Action.svg' alt='Action icon' className='baseImg' />
     </header>
   );
 }

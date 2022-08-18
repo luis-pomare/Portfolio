@@ -3,7 +3,7 @@ import React from 'react';
 export default function ContactMe() {
   return (
     <section id='contact-me'>
-      <h3 class='h1-blue' id='contact-text'>
+      <h3 className='h1-blue' id='contact-text'>
         I'm always <br />
         interested in <br />
         hearing about <br />
@@ -18,7 +18,7 @@ export default function ContactMe() {
           type='text'
           id='full_name'
           placeholder='Full name'
-          maxlength='30'
+          maxLength='30'
           required
         />
         <input
@@ -32,7 +32,7 @@ export default function ContactMe() {
           name='Comment'
           id='comment'
           placeholder='Enter text here'
-          maxlength='500'
+          maxLength='500'
           required
         ></textarea>
         <span id='errorMessage'></span>
