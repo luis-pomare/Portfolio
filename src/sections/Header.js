@@ -42,7 +42,7 @@ export default function Header() {
         <i className='fab fa-github'></i>
         <i className='fab fa-angellist'></i>
       </section>
-      <img src='images/Action.svg' alt='Action icon' className='baseImg' />
+      <img src='/images/Action.svg' alt='Action icon' className='baseImg' />
     </header>
   );
 }

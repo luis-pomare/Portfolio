@@ -5,6 +5,7 @@ import Header from './sections/Header';
 import Main from './sections/Main';
 import Toolbar from './sections/Toolbar';
 import Footer from './sections/Footer';
+import './styles/style.css';
 
 function App() {
   return (
