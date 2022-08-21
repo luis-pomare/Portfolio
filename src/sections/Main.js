@@ -10,7 +10,7 @@ export default function Main() {
           Works
         </h3>
         <img
-          src='images/Indicator.svg'
+          src='/images/Indicator.svg'
           alt='Works title Indicator'
           className='baseImg'
         />

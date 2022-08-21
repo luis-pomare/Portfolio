@@ -28,7 +28,7 @@ export default function About() {
       <section id='skills'>
         <article className='skill-cards'>
           <img
-            src='images/icon-languages.svg'
+            src='/images/icon-languages.svg'
             alt='icon-languages'
             className='skill-img baseImg'
           />
@@ -42,7 +42,7 @@ export default function About() {
         </article>
         <article className='skill-cards'>
           <img
-            src='images/icon-frameworks.svg'
+            src='/images/icon-frameworks.svg'
             alt='icon-frameworks'
             className='skill-img baseImg'
           />
@@ -57,7 +57,7 @@ export default function About() {
         </article>
         <article className='skill-cards' id='skill-3'>
           <img
-            src='images/icon-skills.svg'
+            src='/images/icon-skills.svg'
             alt='icon-skills'
             className='skill-img baseImg'
           />
