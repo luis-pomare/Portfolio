@@ -49,7 +49,7 @@ export default function Main() {
         </article>
         <article className='cards'>
           <section className='card-space'>
-            <img alt='gitHubFriends' src='/images/spaceTravelersHub.png' />
+            <img alt='spaceTravelersHub' src='/images/spaceTravelersHub.png' />
           </section>
           <section className='card-info'>
             <h4 className='projectTitle' tabIndex='9'>
@@ -79,20 +79,26 @@ export default function Main() {
           </section>
         </article>
         <article className='cards'>
-          <section className='card-space'></section>
+          <section className='card-space'>
+            <img alt='theBoysSeasons' src='/images/theBoysSeasons.png' />
+          </section>
           <section className='card-info'>
             <h4 className='projectTitle' tabIndex='11'>
-              Multi-Post Stories Gain+Glory
+              The Boys seasons
             </h4>
             <section className='made-with'>
               <ul className='ul-with'>
-                <li className='blue-li'>Ruby on rails</li>
-                <li className='blue-li'>css</li>
                 <li className='blue-li'>JavaScript</li>
+                <li className='blue-li'>Two APIs</li>
                 <li className='blue-li'>html</li>
+                <li className='blue-li'>css</li>
               </ul>
             </section>
-            <a target='_blank' rel='next' href=''>
+            <a
+              target='_blank'
+              rel='next'
+              href='https://luis-pomare.github.io/the-boys-seasons/dist/#'
+            >
               <button
                 id='thirdCardButton'
                 type='button'
@@ -105,20 +111,25 @@ export default function Main() {
           </section>
         </article>
         <article className='cards'>
-          <section className='card-space'></section>
+          <section className='card-space'>
+            <img alt='Bookstore' src='/images/Bookstore.png' />
+          </section>
           <section className='card-info'>
             <h4 className='projectTitle' tabIndex='13'>
-              Multi-Post Stories Gain+Glory
+              Bookstore
             </h4>
             <section className='made-with'>
               <ul className='ul-with'>
-                <li className='blue-li'>Ruby on rails</li>
+                <li className='blue-li'>React and Redux</li>
                 <li className='blue-li'>css</li>
-                <li className='blue-li'>JavaScript</li>
-                <li className='blue-li'>html</li>
+                <li className='blue-li'>Microverse API</li>
               </ul>
             </section>
-            <a target='_blank' rel='next' href=''>
+            <a
+              target='_blank'
+              rel='next'
+              href='https://63031255330a6429601b98db--illustrious-sorbet-a4bf9d.netlify.app/'
+            >
               <button
                 id='fourthCardButton'
                 type='button'
@@ -131,10 +142,12 @@ export default function Main() {
           </section>
         </article>
         <article className='cards'>
-          <section className='card-space'></section>
+          <section className='card-space'>
+            <img alt='Math Magicians' src='/images/mathMagicians.png' />
+          </section>
           <section className='card-info'>
             <h4 className='projectTitle' tabIndex='15'>
-              Multi-Post Stories Gain+Glory
+              Math magicians
             </h4>
             <section className='made-with'>
               <ul className='ul-with'>

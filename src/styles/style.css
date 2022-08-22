@@ -345,6 +345,21 @@ footer {
   align-items: center;
 }
 
+.card-space img {
+  width: 80%;
+  opacity: 0.2;
+}
+
+.projectTitle {
+  padding: 13.5px 0;
+}
+
+.card-info a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Dynamic elements style */
 #dynamicNav {
   display: flex;
@@ -458,18 +473,4 @@ footer {
   background-color: #36b37e;
   border-radius: 4px;
   align-self: flex-start;
-}
-
-.card-space img {
-  width: 80%;
-}
-
-.projectTitle {
-  padding: 13.5px 0;
-}
-
-.card-info a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
