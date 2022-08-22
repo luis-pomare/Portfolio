@@ -151,13 +151,17 @@ export default function Main() {
             </h4>
             <section className='made-with'>
               <ul className='ul-with'>
-                <li className='blue-li'>Ruby on rails</li>
+                <li className='blue-li'>React</li>
                 <li className='blue-li'>css</li>
+                <li className='blue-li'>Calculator lib</li>
                 <li className='blue-li'>JavaScript</li>
-                <li className='blue-li'>html</li>
               </ul>
             </section>
-            <a target='_blank' rel='next' href=''>
+            <a
+              target='_blank'
+              rel='next'
+              href='https://6303171c73d2452b1b1fa652--poetic-fairy-59c30f.netlify.app/'
+            >
               <button
                 id='fifthCardButton'
                 type='button'
