@@ -174,20 +174,25 @@ export default function Main() {
           </section>
         </article>
         <article className='cards'>
-          <section className='card-space'></section>
+          <section className='card-space'>
+            <img alt='Landing page' src='/images/landingPage.png' />
+          </section>
           <section className='card-info'>
             <h4 className='projectTitle' tabIndex='17'>
-              Multi-Post Stories Gain+Glory
+              Landing page
             </h4>
             <section className='made-with'>
               <ul className='ul-with'>
-                <li className='blue-li'>Ruby on rails</li>
-                <li className='blue-li'>css</li>
-                <li className='blue-li'>JavaScript</li>
-                <li className='blue-li'>html</li>
+                <li className='blue-li'>Gatsby</li>
+                <li className='blue-li'>css Modules</li>
+                <li className='blue-li'>React</li>
               </ul>
             </section>
-            <a target='_blank' rel='next' href=''>
+            <a
+              target='_blank'
+              rel='next'
+              href='https://62f916d594aca50642cf5d73--hilarious-taiyaki-94672c.netlify.app/'
+            >
               <button
                 id='sixthCardButton'
                 type='button'
