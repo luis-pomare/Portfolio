@@ -11,13 +11,13 @@ It contains all the proyects I've been working on:
 
 ## Preview image
 
-![<img src="./app_screenshot.png"/>](https://630322bf80a0122e23b7ce78--playful-stardust-41d3fc.netlify.app/)
+![<img src="./app_screenshot.png">](https://630322bf80a0122e23b7ce78--playful-stardust-41d3fc.netlify.app/)
 
 ## Built With
 
--React
--XML
--CSS
+- React
+- XML
+- CSS
 
 ##
 
