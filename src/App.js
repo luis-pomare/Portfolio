@@ -6,6 +6,8 @@ import Main from './sections/Main';
 import Toolbar from './sections/Toolbar';
 import Footer from './sections/Footer';
 import './styles/style.css';
+import './styles/style-720.css';
+import './styles/style-1080.css';
 
 function App() {
   return (
@@ -69,4 +71,3 @@ function App() {
 }
 
 export default App;
-
