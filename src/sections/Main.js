@@ -33,7 +33,7 @@ export default function Main() {
             </section>
             <a
               target='_blank'
-              rel='next'
+              rel="next noreferrer"
               href='https://development--storied-crepe-b941b1.netlify.app/'
             >
               <button
@@ -64,7 +64,7 @@ export default function Main() {
             </section>
             <a
               target='_blank'
-              rel='next'
+              rel="next noreferrer"
               href='https://62e3d790301b6c0b660edd94--transcendent-creponne-c9416a.netlify.app/'
             >
               <button
@@ -96,7 +96,7 @@ export default function Main() {
             </section>
             <a
               target='_blank'
-              rel='next'
+              rel="next noreferrer"
               href='https://luis-pomare.github.io/the-boys-seasons/dist/#'
             >
               <button
@@ -127,7 +127,7 @@ export default function Main() {
             </section>
             <a
               target='_blank'
-              rel='next'
+              rel="next noreferrer"
               href='https://63031255330a6429601b98db--illustrious-sorbet-a4bf9d.netlify.app/'
             >
               <button
@@ -159,7 +159,7 @@ export default function Main() {
             </section>
             <a
               target='_blank'
-              rel='next'
+              rel="next noreferrer"
               href='https://6303171c73d2452b1b1fa652--poetic-fairy-59c30f.netlify.app/'
             >
               <button
@@ -190,7 +190,7 @@ export default function Main() {
             </section>
             <a
               target='_blank'
-              rel='next'
+              rel="next noreferrer"
               href='https://62f916d594aca50642cf5d73--hilarious-taiyaki-94672c.netlify.app/'
             >
               <button
