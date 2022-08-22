@@ -6,16 +6,20 @@ This is my profesional portfolio as a web developer...
 It contains all the proyects I've been working on:
 
 ## Online version
-https://luis-pomare.github.io/Portfolio/
-## Preview image
-![screenshot of the page](./app_screenshot.png)
 
+[Live version](https://630322bf80a0122e23b7ce78--playful-stardust-41d3fc.netlify.app/)
+
+## Preview image
+
+![<img src="./app_screenshot.png"/>](https://630322bf80a0122e23b7ce78--playful-stardust-41d3fc.netlify.app/)
 
 ## Built With
 
--CSS ,HTML 
+-React
+-XML
+-CSS
 
-## 
+##
 
 ## Authors
 
@@ -23,9 +27,10 @@ https://luis-pomare.github.io/Portfolio/
 
 - GitHub: [@luis-pomare](https://github.com/luis-pomare)
 - Twitter: [@LuisPomare1](https://twitter.com/LuisPomare1)
-- LinkedIn: [luis-pomare-388116225](https://www.linkedin.com/in/luis-pomare-388116225/)
+- LinkedIn: [luis-pomare](https://www.linkedin.com/in/luis-pomare/)
 
 Give a ⭐️ if you like this project!
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
