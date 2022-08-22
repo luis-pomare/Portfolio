@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -39,7 +39,7 @@ header {
 }
 
 #main-header {
-  background-image: url("images/header-background.svg");
+  background-image: url('images/header-background.svg');
   background-size: cover;
 }
 
@@ -136,6 +136,9 @@ h3 {
 
 .card-space {
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .cards:hover {
@@ -178,6 +181,7 @@ h4 {
   background: #ebf0ee;
   padding: 10px;
   border-radius: 4px;
+  margin: 7px 0;
 }
 
 .see-1 {
@@ -306,7 +310,7 @@ textarea::placeholder {
 #contact-me {
   display: flex;
   flex-direction: column;
-  background: url("images/illustration-contact-form.svg");
+  background: url('images/illustration-contact-form.svg');
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
@@ -338,6 +342,21 @@ button:hover,
 footer {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.card-space img {
+  width: 80%;
+  opacity: 0.2;
+}
+
+.projectTitle {
+  padding: 13.5px 0;
+}
+
+.card-info a {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
