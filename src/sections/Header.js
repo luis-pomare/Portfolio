@@ -36,11 +36,11 @@ export default function Header() {
         don't hestiate to contact me.
       </p>
       <section className='social' tabIndex='6'>
-        <i className='fab fa-twitter'></i>
         <i className='fab fa-linkedin-in'></i>
-        <i className='fab fa-medium-m'></i>
-        <i className='fab fa-github'></i>
         <i className='fab fa-angellist'></i>
+        <i className='fab fa-github'></i>
+        <i className='fab fa-twitter'></i>
+        <i className='fab fa-medium-m'></i>
       </section>
       <img src='/images/Action.svg' alt='Action icon' className='baseImg' />
     </header>
