@@ -36,11 +36,21 @@ export default function Header() {
         don't hestiate to contact me.
       </p>
       <section className='social' tabIndex='6'>
-        <i className='fab fa-linkedin-in'></i>
-        <i className='fab fa-angellist'></i>
-        <i className='fab fa-github'></i>
-        <i className='fab fa-twitter'></i>
-        <i className='fab fa-medium-m'></i>
+        <a target='_blank' href='https://www.linkedin.com/in/luis-pomare/'>
+          <i className='fab fa-linkedin-in' />
+        </a>
+        <a target='_blank' href='https://angel.co/u/luis-pomare'>
+          <i className='fab fa-angellist' />
+        </a>
+        <a target='_blank' href='https://github.com/luis-pomare'>
+          <i className='fab fa-github' />
+        </a>
+        <a target='_blank' href='https://twitter.com/LuisPomare1'>
+          <i className='fab fa-twitter' />
+        </a>
+        <a target='_blank' href='https://medium.com/@luispomare92'>
+          <i className='fab fa-medium-m' />
+        </a>
       </section>
       <img src='/images/Action.svg' alt='Action icon' className='baseImg' />
     </header>
