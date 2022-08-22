@@ -21,7 +21,7 @@ export default function About() {
         </p>
         <section id='resume-button'>
           <a
-            rel='author'
+            rel='noreferrer'
             href='https://drive.google.com/file/d/1Y8Ke44lL16ICw8_KfcOw5dCO9nasMpqt/view?usp=sharing'
             target='_blank'
           >
@@ -41,7 +41,6 @@ export default function About() {
           <h4>Languages</h4>
           <ul className='skill-ul'>
             <li className='skill-li'>JavaScript</li>
-            <li className='skill-li'>Ruby</li>
             <li className='skill-li'>Html</li>
             <li className='skill-li'>CSS</li>
           </ul>
@@ -54,11 +53,9 @@ export default function About() {
           />
           <h4>Frameworks</h4>
           <ul className='skill-ul'>
+            <li className='skill-li'>React</li>
             <li className='skill-li'>Bootstrap</li>
-            <li className='skill-li'>Ruby on rails</li>
-            <li className='skill-li'>RSpec</li>
-            <li className='skill-li'>Capybara</li>
-            <li className='skill-li'>Selenium</li>
+            <li className='skill-li'>Redux</li>
           </ul>
         </article>
         <article className='skill-cards' id='skill-3'>
@@ -69,11 +66,11 @@ export default function About() {
           />
           <h4>Skills</h4>
           <ul className='skill-ul'>
-            <li className='skill-li'>Codekit</li>
+            <li className='skill-li'>Git</li>
             <li className='skill-li'>GitHub</li>
             <li className='skill-li'>Codepen</li>
-            <li className='skill-li'>Gitlab</li>
-            <li className='skill-li'>Terminal</li>
+            <li className='skill-li'>NPM</li>
+            <li className='skill-li'>Webpack</li>
           </ul>
         </article>
       </section>
