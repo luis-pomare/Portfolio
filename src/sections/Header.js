@@ -52,7 +52,9 @@ export default function Header() {
           <i className='fab fa-medium-m' />
         </a>
       </section>
-      <img src='/images/Action.svg' alt='Action icon' className='baseImg' />
+      <a href='#social-2'>
+        <img src='/images/Action.svg' alt='Action icon' className='baseImg' />
+      </a>
     </header>
   );
 }
