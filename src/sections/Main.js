@@ -21,14 +21,14 @@ export default function Main() {
             <img alt='gitHubFriends' src='/images/gitHubFriends.png' />
           </section>
           <section className='card-info'>
-            <h4 tabIndex='7' id='gitHubFriends'>
+            <h4 className='projectTitle' tabIndex='7'>
               GitHub Friends
             </h4>
             <section className='made-with'>
               <ul className='ul-with'>
                 <li className='blue-li'>React and Redux</li>
                 <li className='blue-li'>css</li>
-                <li className='blue-li'>JavaScript</li>
+                <li className='blue-li'>GitHub API</li>
               </ul>
             </section>
             <a
@@ -48,22 +48,25 @@ export default function Main() {
           </section>
         </article>
         <article className='cards'>
-          <section className='card-space'></section>
+          <section className='card-space'>
+            <img alt='gitHubFriends' src='/images/spaceTravelersHub.png' />
+          </section>
           <section className='card-info'>
-            <h4 tabIndex='9'>
-              Multi-Post Stories
-              <br />
-              Gain+Glory
+            <h4 className='projectTitle' tabIndex='9'>
+              Space Travelers' Hub
             </h4>
             <section className='made-with'>
               <ul className='ul-with'>
-                <li className='blue-li'>Ruby on rails</li>
+                <li className='blue-li'>React and Redux</li>
                 <li className='blue-li'>css</li>
-                <li className='blue-li'>JavaScript</li>
-                <li className='blue-li'>html</li>
+                <li className='blue-li'>Microverse API</li>
               </ul>
             </section>
-            <a target='_blank' rel='next' href=''>
+            <a
+              target='_blank'
+              rel='next'
+              href='https://62e3d790301b6c0b660edd94--transcendent-creponne-c9416a.netlify.app/'
+            >
               <button
                 id='secondCardButton'
                 type='button'
@@ -78,10 +81,8 @@ export default function Main() {
         <article className='cards'>
           <section className='card-space'></section>
           <section className='card-info'>
-            <h4 tabIndex='11'>
-              Multi-Post Stories
-              <br />
-              Gain+Glory
+            <h4 className='projectTitle' tabIndex='11'>
+              Multi-Post Stories Gain+Glory
             </h4>
             <section className='made-with'>
               <ul className='ul-with'>
@@ -106,10 +107,8 @@ export default function Main() {
         <article className='cards'>
           <section className='card-space'></section>
           <section className='card-info'>
-            <h4 tabIndex='13'>
-              Multi-Post Stories
-              <br />
-              Gain+Glory
+            <h4 className='projectTitle' tabIndex='13'>
+              Multi-Post Stories Gain+Glory
             </h4>
             <section className='made-with'>
               <ul className='ul-with'>
@@ -134,10 +133,8 @@ export default function Main() {
         <article className='cards'>
           <section className='card-space'></section>
           <section className='card-info'>
-            <h4 tabIndex='15'>
-              Multi-Post Stories
-              <br />
-              Gain+Glory
+            <h4 className='projectTitle' tabIndex='15'>
+              Multi-Post Stories Gain+Glory
             </h4>
             <section className='made-with'>
               <ul className='ul-with'>
@@ -162,10 +159,8 @@ export default function Main() {
         <article className='cards'>
           <section className='card-space'></section>
           <section className='card-info'>
-            <h4 tabIndex='17'>
-              Multi-Post Stories
-              <br />
-              Gain+Glory
+            <h4 className='projectTitle' tabIndex='17'>
+              Multi-Post Stories Gain+Glory
             </h4>
             <section className='made-with'>
               <ul className='ul-with'>
