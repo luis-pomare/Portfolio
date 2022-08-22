@@ -20,9 +20,15 @@ export default function About() {
           don't hestiate to contact me.
         </p>
         <section id='resume-button'>
-          <button type='button' className='green-button'>
-            Get My Resume
-          </button>
+          <a
+            rel='author'
+            href='https://drive.google.com/file/d/1Y8Ke44lL16ICw8_KfcOw5dCO9nasMpqt/view?usp=sharing'
+            target='_blank'
+          >
+            <button type='button' className='green-button'>
+              Get My Resume
+            </button>
+          </a>
         </section>
       </header>
       <section id='skills'>
