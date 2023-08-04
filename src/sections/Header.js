@@ -15,9 +15,7 @@ export default function Header() {
         </a>
       </section>
       <h1 className='h1-blue' tabIndex='3'>
-        Hey there. I'm
-        <br />
-        Luis Pomare
+        Hey there. I'm Luis Pomare
       </h1>
       <h2 className='h1-green' tabIndex='4'>
         I'm a software <br />
