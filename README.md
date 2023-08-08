@@ -7,7 +7,7 @@ It contains all the proyects I've been working on:
 
 ## Online version
 
-[Live version](https://playful-stardust-41d3fc.netlify.app/)
+[Live version](https://master--playful-stardust-41d3fc.netlify.app/)
 
 ## Preview image
 
