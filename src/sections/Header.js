@@ -21,17 +21,10 @@ export default function Header() {
         I'm a software <br />
         developer
       </h2>
-      <p className='text1' tabIndex='5'>
-        I can help you build a product,
-        <br />
-        feature or website Look through
-        <br />
-        some of my work and experience!
-        <br />
-        If you like what you see and have
-        <br />a project you need coded,
-        <br />
-        don't hestiate to contact me.
+      <p className="text1" tabindex="5">
+        I can help you build a product, feature or website. Look through some of my
+        work and experience! If you like what you see and have a project you need
+        to code, don't hesitate to contact me.
       </p>
       <section className='social' tabIndex='6'>
         <a
