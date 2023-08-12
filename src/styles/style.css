@@ -474,3 +474,7 @@ footer {
   border-radius: 4px;
   align-self: flex-start;
 }
+
+#menu-icon {
+  cursor: pointer;
+}
