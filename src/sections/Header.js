@@ -21,7 +21,7 @@ export default function Header() {
         I'm a software <br />
         developer
       </h2>
-      <p className="text1" tabindex="5">
+      <p className="text1" tabIndex="5">
         I can help you build a product, feature or website. Look through some of my
         work and experience! If you like what you see and have a project you need
         to code, don't hesitate to contact me.
