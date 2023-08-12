@@ -1,19 +1,10 @@
 import React from 'react';
+import DesktopToolbar from '../components/DesktopToolbar';
 
 export default function Header() {
   return (
     <header id='main-header'>
-      <section id='toolbar-desktop'>
-        <a href='#portfolio' className='toolbar-text' tabIndex='1'>
-          Portfolio
-        </a>
-        <a href='#about-tittle' className='toolbar-text' tabIndex='2'>
-          About
-        </a>
-        <a href='#contact-me' className='toolbar-text' tabIndex='3'>
-          Contact
-        </a>
-      </section>
+      <DesktopToolbar />
       <h1 className='h1-blue' tabIndex='3'>
         Hey there. I'm Luis Pomare
       </h1>
