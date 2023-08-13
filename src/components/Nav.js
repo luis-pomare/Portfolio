@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+const MobileDisplayedMenu = () => {
+  return (
+    <div>MobileDisplayedMenu</div>
+  )
+}
+
 
 export default function Nav() {
+  let [isMenuDisplayed, setIsMenuDisplayed] = useState(false);
+
   const imageClicked = () => {
-    console.log("The menu icon has been clicked")
+    setIsMenuDisplayed(!isMenuDisplayed)
   }
 
   return (
@@ -14,6 +23,7 @@ export default function Nav() {
         id='menu-icon'
         onClick={imageClicked}
       />
+      {isMenuDisplayed ? <MobileDisplayedMenu /> : 'false'}
     </nav>
   );
 }
