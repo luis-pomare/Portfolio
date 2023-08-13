@@ -23,7 +23,7 @@ export default function Nav() {
         id='menu-icon'
         onClick={imageClicked}
       />
-      {isMenuDisplayed ? <MobileDisplayedMenu /> : 'false'}
+      {isMenuDisplayed && <MobileDisplayedMenu />}
     </nav>
   );
 }
