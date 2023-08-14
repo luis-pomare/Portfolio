@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 
 const MobileDisplayedMenu = () => {
   return (
-    <div>MobileDisplayedMenu</div>
+    <section>
+      
+    </section>
   )
 }
 
