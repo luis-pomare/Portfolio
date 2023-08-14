@@ -17,3 +17,21 @@ a {
   text-decoration: inherit;
 }
 
+#mobileNav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+#closerIcon {
+  align-self: flex-end;
+  padding-top: 32px;
+  padding-right: 38px;
+}

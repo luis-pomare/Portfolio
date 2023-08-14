@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 
 const MobileDisplayedMenu = () => {
   return (
-    <section>
-      
+    <section id='mobileNav'>
+      <img id="closerIcon" src="images/close-mobile-menu-Icon.svg" alt='' />
+      <a id="firstMenuElement" href="#portfolio">Portfolio</a>
+      <a id="secondMenuElement" href="#about-tittle">About</a>
+      <a id="thirdMenuElement" href="#contact-text">Contact</a>
     </section>
   )
 }
