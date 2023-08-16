@@ -112,6 +112,37 @@ export default function Main() {
         </article>
         <article className='cards'>
           <section className='card-space'>
+            <img alt='gitHubFriends' src='/images/gitHubFriends.png' />
+          </section>
+          <section className='card-info'>
+            <h4 className='projectTitle' tabIndex='7'>
+              GitHub Friends
+            </h4>
+            <section className='made-with'>
+              <ul className='ul-with'>
+                <li className='blue-li'>React and Redux</li>
+                <li className='blue-li'>css</li>
+                <li className='blue-li'>GitHub API</li>
+              </ul>
+            </section>
+            <a
+              target='_blank'
+              rel='noreferrer'
+              href='https://development--storied-crepe-b941b1.netlify.app/'
+            >
+              <button
+                id='firstCardButton'
+                type='button'
+                className='green-button'
+                tabIndex='8'
+              >
+                See Project
+              </button>
+            </a>
+          </section>
+        </article>
+        <article className='cards'>
+          <section className='card-space'>
             <img alt='Bookstore' src='/images/Bookstore.png' />
           </section>
           <section className='card-info'>
@@ -167,37 +198,6 @@ export default function Main() {
                 type='button'
                 className='green-button'
                 tabIndex='16'
-              >
-                See Project
-              </button>
-            </a>
-          </section>
-        </article>
-        <article className='cards'>
-          <section className='card-space'>
-            <img alt='Landing page' src='/images/landingPage.png' />
-          </section>
-          <section className='card-info'>
-            <h4 className='projectTitle' tabIndex='17'>
-              Landing page
-            </h4>
-            <section className='made-with'>
-              <ul className='ul-with'>
-                <li className='blue-li'>Gatsby</li>
-                <li className='blue-li'>css Modules</li>
-                <li className='blue-li'>React</li>
-              </ul>
-            </section>
-            <a
-              target='_blank'
-              rel='noreferrer'
-              href='https://62f916d594aca50642cf5d73--hilarious-taiyaki-94672c.netlify.app/'
-            >
-              <button
-                id='sixthCardButton'
-                type='button'
-                className='green-button'
-                tabIndex='18'
               >
                 See Project
               </button>
