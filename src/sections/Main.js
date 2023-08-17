@@ -18,23 +18,26 @@ export default function Main() {
       <section className='cards-container'>
         <article className='cards'>
           <section className='card-space'>
-            <img alt='gitHubFriends' src='/images/gitHubFriends.png' />
+            <img alt='roadTripWheels' src='/images/roadTripWheels.png' />
           </section>
           <section className='card-info'>
             <h4 className='projectTitle' tabIndex='7'>
-              GitHub Friends
+              Road Trip Wheels
             </h4>
             <section className='made-with'>
               <ul className='ul-with'>
+                <li className='blue-li'>PostgreSQL</li>
+                <li className='blue-li'>Ruby on Rails</li>
                 <li className='blue-li'>React and Redux</li>
-                <li className='blue-li'>css</li>
-                <li className='blue-li'>GitHub API</li>
+                <li className='blue-li'>CSS</li>
+                <li className='blue-li'>Context API</li>
+                <li className='blue-li'>Next JS</li>
               </ul>
             </section>
             <a
               target='_blank'
               rel='noreferrer'
-              href='https://development--storied-crepe-b941b1.netlify.app/'
+              href='https://roadtrip-wheels.onrender.com/'
             >
               <button
                 id='firstCardButton'
