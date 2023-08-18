@@ -12,11 +12,17 @@ body {
 }
 
 .toolbar {
+  top: 0;
+  left: 0;
+  width: 87vw;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   padding: 29px;
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: #fff;
+  z-index: 5;
 }
 
 .toolbar-text {
@@ -39,6 +45,7 @@ header {
 }
 
 #main-header {
+  margin-top: 53px;
   background-image: url('images/header-background.svg');
   background-size: cover;
 }
