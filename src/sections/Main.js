@@ -215,20 +215,35 @@ export default function Main() {
                 <li className='blue-li'>Microverse API</li>
               </ul>
             </section>
-            <a
-              target='_blank'
-              rel='noreferrer'
-              href='https://63031255330a6429601b98db--illustrious-sorbet-a4bf9d.netlify.app/'
-            >
-              <button
-                id='fourthCardButton'
-                type='button'
-                className='green-button'
-                tabIndex='14'
+            <section className='card-buttons-container'>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://63031255330a6429601b98db--illustrious-sorbet-a4bf9d.netlify.app/'
               >
-                See Project
-              </button>
-            </a>
+                <button
+                  id='fourthCardButton'
+                  type='button'
+                  className='green-button'
+                  tabIndex='14'
+                >
+                  See Project
+                </button>
+              </a>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://github.com/luis-pomare/bookstore'
+              >
+                <button
+                  type='button'
+                  className='green-button'
+                  tabIndex='8'
+                >
+                  Source Code
+                </button>
+              </a>
+            </section>
           </section>
         </article>
         <article className='cards'>
@@ -247,20 +262,35 @@ export default function Main() {
                 <li className='blue-li'>JavaScript</li>
               </ul>
             </section>
-            <a
-              target='_blank'
-              rel='noreferrer'
-              href='https://6303171c73d2452b1b1fa652--poetic-fairy-59c30f.netlify.app/'
-            >
-              <button
-                id='fifthCardButton'
-                type='button'
-                className='green-button'
-                tabIndex='16'
+            <section className='card-buttons-container'>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://6303171c73d2452b1b1fa652--poetic-fairy-59c30f.netlify.app/'
               >
-                See Project
-              </button>
-            </a>
+                <button
+                  id='fifthCardButton'
+                  type='button'
+                  className='green-button'
+                  tabIndex='16'
+                >
+                  See Project
+                </button>
+              </a>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://github.com/luis-pomare/math-magicians'
+              >
+                <button
+                  type='button'
+                  className='green-button'
+                  tabIndex='8'
+                >
+                  Source Code
+                </button>
+              </a>
+            </section>
           </section>
         </article>
       </section>
