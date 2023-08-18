@@ -68,16 +68,23 @@
   }
 
   #toolbar-desktop {
+    position: fixed;
     display: flex;
     justify-content: center;
+    background-color: #fff;
+    border-radius: 35px;
+    z-index: 4;
   }
 
   .toolbar-text {
     padding: 15px;
-    padding-bottom: 150px;
     font-size: 14px;
     font-weight: 600;
     color: #28352f;
+  }
+
+  #hey-there {
+    margin-top: 182px;
   }
 
   footer {

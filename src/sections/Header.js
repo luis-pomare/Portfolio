@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header id='main-header'>
       <DesktopToolbar />
-      <h1 className='h1-blue' tabIndex='3'>
+      <h1 className='h1-blue' tabIndex='3' id='hey-there'>
         Hey there. I'm Luis Pomare
       </h1>
       <h2 className='h1-green' tabIndex='4'>
