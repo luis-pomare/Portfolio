@@ -52,7 +52,6 @@ export default function Main() {
                 href='https://github.com/luis-pomare/rails-car-booking-rentals-backend'
               >
                 <button
-                  id='firstCardButton'
                   type='button'
                   className='green-button'
                   tabIndex='8'
@@ -99,7 +98,6 @@ export default function Main() {
                 href='https://github.com/luis-pomare/Space-Travelers-Hub'
               >
                 <button
-                  id='firstCardButton'
                   type='button'
                   className='green-button'
                   tabIndex='8'
@@ -126,20 +124,35 @@ export default function Main() {
                 <li className='blue-li'>css</li>
               </ul>
             </section>
-            <a
-              target='_blank'
-              rel='noreferrer'
-              href='https://luis-pomare.github.io/the-boys-seasons/dist/#'
-            >
-              <button
-                id='thirdCardButton'
-                type='button'
-                className='green-button'
-                tabIndex='12'
+            <section className='card-buttons-container'>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://luis-pomare.github.io/the-boys-seasons/dist/#'
               >
-                See Project
-              </button>
-            </a>
+                <button
+                  id='thirdCardButton'
+                  type='button'
+                  className='green-button'
+                  tabIndex='12'
+                >
+                  See Project
+                </button>
+              </a>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://github.com/luis-pomare/the-boys-seasons'
+              >
+                <button
+                  type='button'
+                  className='green-button'
+                  tabIndex='8'
+                >
+                  Source Code
+                </button>
+              </a>
+            </section>
           </section>
         </article>
         <article className='cards'>
@@ -163,7 +176,6 @@ export default function Main() {
               href='https://development--storied-crepe-b941b1.netlify.app/'
             >
               <button
-                id='firstCardButton'
                 type='button'
                 className='green-button'
                 tabIndex='8'
