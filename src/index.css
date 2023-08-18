@@ -40,3 +40,8 @@ a {
 img {
   cursor: pointer;
 }
+
+.card-buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+}

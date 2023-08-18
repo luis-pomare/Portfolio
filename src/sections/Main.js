@@ -28,26 +28,39 @@ export default function Main() {
               <ul className='ul-with'>
                 <li className='blue-li'>PostgreSQL</li>
                 <li className='blue-li'>Ruby on Rails</li>
-                <li className='blue-li'>React and Redux</li>
-                <li className='blue-li'>CSS</li>
                 <li className='blue-li'>Context API</li>
-                <li className='blue-li'>Next JS</li>
               </ul>
             </section>
-            <a
-              target='_blank'
-              rel='noreferrer'
-              href='https://roadtrip-wheels.onrender.com/'
-            >
-              <button
-                id='firstCardButton'
-                type='button'
-                className='green-button'
-                tabIndex='8'
+            <section className='card-buttons-container'>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://roadtrip-wheels.onrender.com/'
               >
-                See Project
-              </button>
-            </a>
+                <button
+                  id='firstCardButton'
+                  type='button'
+                  className='green-button'
+                  tabIndex='8'
+                >
+                  See Project
+                </button>
+              </a>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://github.com/luis-pomare/rails-car-booking-rentals-backend'
+              >
+                <button
+                  id='firstCardButton'
+                  type='button'
+                  className='green-button'
+                  tabIndex='8'
+                >
+                  Source Code
+                </button>
+              </a>
+            </section>
           </section>
         </article>
         <article className='cards'>
@@ -65,20 +78,36 @@ export default function Main() {
                 <li className='blue-li'>Microverse API</li>
               </ul>
             </section>
-            <a
-              target='_blank'
-              rel='noreferrer'
-              href='https://62e3d790301b6c0b660edd94--transcendent-creponne-c9416a.netlify.app/'
-            >
-              <button
-                id='secondCardButton'
-                type='button'
-                className='green-button'
-                tabIndex='10'
+            <section className='card-buttons-container'>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://62e3d790301b6c0b660edd94--transcendent-creponne-c9416a.netlify.app/'
               >
-                See Project
-              </button>
-            </a>
+                <button
+                  id='secondCardButton'
+                  type='button'
+                  className='green-button'
+                  tabIndex='10'
+                >
+                  See Project
+                </button>
+              </a>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://github.com/luis-pomare/Space-Travelers-Hub'
+              >
+                <button
+                  id='firstCardButton'
+                  type='button'
+                  className='green-button'
+                  tabIndex='8'
+                >
+                  Source Code
+                </button>
+              </a>
+            </section>
           </section>
         </article>
         <article className='cards'>
