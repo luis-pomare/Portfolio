@@ -170,19 +170,34 @@ export default function Main() {
                 <li className='blue-li'>GitHub API</li>
               </ul>
             </section>
-            <a
-              target='_blank'
-              rel='noreferrer'
-              href='https://development--storied-crepe-b941b1.netlify.app/'
-            >
-              <button
-                type='button'
-                className='green-button'
-                tabIndex='8'
+            <section className='card-buttons-container'>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://development--storied-crepe-b941b1.netlify.app/'
               >
-                See Project
-              </button>
-            </a>
+                <button
+                  type='button'
+                  className='green-button'
+                  tabIndex='8'
+                >
+                  See Project
+                </button>
+              </a>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://github.com/luis-pomare/github-friends'
+              >
+                <button
+                  type='button'
+                  className='green-button'
+                  tabIndex='8'
+                >
+                  Source Code
+                </button>
+              </a>
+            </section>
           </section>
         </article>
         <article className='cards'>
