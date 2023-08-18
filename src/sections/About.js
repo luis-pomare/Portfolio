@@ -22,7 +22,7 @@ export default function About() {
         <section id='resume-button'>
           <a
             rel='noreferrer'
-            href='https://drive.google.com/file/d/1Y8Ke44lL16ICw8_KfcOw5dCO9nasMpqt/view?usp=sharing'
+            href='https://drive.google.com/file/d/1CPF5tRSAeX7IL0l0LM0wc3Mgm0Qdt6Qd/view?usp=sharing'
             target='_blank'
           >
             <button type='button' className='green-button'>
