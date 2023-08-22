@@ -2,8 +2,8 @@
 
 # My portfolio
 
-This is my profesional portfolio as a web developer...
-It contains all the proyects I've been working on:
+This is my professional portfolio as a web developer...
+It contains all the projects I've been working on:
 
 ## Online version
 
