@@ -1,15 +1,15 @@
 import React from 'react'
 
-export default function Card() {
+export default function Card(props) {
+  const { cardData } = props
   return (
-
     <article className='cards'>
       <section className='card-space'>
-        <img alt='Math Magicians' src='/images/mathMagicians.png' />
+        <img alt={cardData.cardName} src='/images/mathMagicians.png' />
       </section>
       <section className='card-info'>
         <h4 className='projectTitle' tabIndex='15'>
-          Math magicians
+          {cardData.cardName}
         </h4>
         <section className='made-with'>
           <ul className='ul-with'>

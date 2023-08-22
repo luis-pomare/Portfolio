@@ -1,7 +1,9 @@
 import React from 'react';
 import Card from '../components/Card';
+import cardsData from '../components/cardsData';
 
 export default function Main() {
+  const { dataOne } = cardsData
   return (
     <main className='works-container'>
       <header className='works-header'>
@@ -247,7 +249,7 @@ export default function Main() {
             </section>
           </section>
         </article>
-        <Card />
+        <Card cardData={dataOne} />
       </section>
     </main>
   );
