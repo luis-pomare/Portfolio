@@ -5,7 +5,7 @@ export default function Card(props) {
   return (
     <article className='cards'>
       <section className='card-space'>
-        <img alt={cardData.cardName} src='/images/mathMagicians.png' />
+        <img alt={cardData.cardName} src={cardData.cardImage} />
       </section>
       <section className='card-info'>
         <h4 className='projectTitle' tabIndex='15'>

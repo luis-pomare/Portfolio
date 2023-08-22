@@ -1,6 +1,7 @@
 const cardsData = {
   dataOne: {
-    cardName: 'Math Magicians'
+    cardName: 'Math Magicians',
+    cardImage: '/images/mathMagicians.png'
   },
   dataTwo: {},
   dataThree: {},
