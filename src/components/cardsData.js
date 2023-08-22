@@ -1,7 +1,13 @@
 const cardsData = {
   dataOne: {
     cardName: 'Math Magicians',
-    cardImage: '/images/mathMagicians.png'
+    cardImage: '/images/mathMagicians.png',
+    cardMadeWith: [
+      'React',
+      'CSS',
+      'Calculator lib',
+      'JavaScript'
+    ],
   },
   dataTwo: {},
   dataThree: {},

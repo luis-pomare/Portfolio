@@ -13,10 +13,9 @@ export default function Card(props) {
         </h4>
         <section className='made-with'>
           <ul className='ul-with'>
-            <li className='blue-li'>React</li>
-            <li className='blue-li'>CSS</li>
-            <li className='blue-li'>Calculator lib</li>
-            <li className='blue-li'>JavaScript</li>
+            {cardData.cardMadeWith.map((item, index) => (
+              <li key={index} className='blue-li'>{item}</li>
+            ))}
           </ul>
         </section>
         <section className='card-buttons-container'>
