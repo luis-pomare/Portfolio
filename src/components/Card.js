@@ -22,7 +22,7 @@ export default function Card(props) {
           <a
             target='_blank'
             rel='noreferrer'
-            href='https://6303171c73d2452b1b1fa652--poetic-fairy-59c30f.netlify.app/'
+            href={cardData.cardProjectLink}
           >
             <button
               id='fifthCardButton'
@@ -36,7 +36,7 @@ export default function Card(props) {
           <a
             target='_blank'
             rel='noreferrer'
-            href='https://github.com/luis-pomare/math-magicians'
+            href={cardData.cardSourceLink}
           >
             <button
               type='button'
