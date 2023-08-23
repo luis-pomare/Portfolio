@@ -3,7 +3,7 @@ import Card from '../components/Card';
 import cardsData from '../components/cardsData';
 
 export default function Main() {
-  const { dataOne } = cardsData
+  const { dataOne, dataTwo, dataThree, dataFour, dataFive, dataSix } = cardsData
   return (
     <main className='works-container'>
       <header className='works-header'>
@@ -19,52 +19,7 @@ export default function Main() {
         />
       </header>
       <section className='cards-container'>
-        <article className='cards'>
-          <section className='card-space'>
-            <img alt='roadTripWheels' src='/images/roadTripWheels.png' />
-          </section>
-          <section className='card-info'>
-            <h4 className='projectTitle' tabIndex='7'>
-              Road Trip Wheels
-            </h4>
-            <section className='made-with'>
-              <ul className='ul-with'>
-                <li className='blue-li'>PostgreSQL</li>
-                <li className='blue-li'>Ruby on Rails</li>
-                <li className='blue-li'>Context API</li>
-              </ul>
-            </section>
-            <section className='card-buttons-container'>
-              <a
-                target='_blank'
-                rel='noreferrer'
-                href='https://roadtrip-wheels.onrender.com/'
-              >
-                <button
-                  id='firstCardButton'
-                  type='button'
-                  className='green-button'
-                  tabIndex='8'
-                >
-                  See Project
-                </button>
-              </a>
-              <a
-                target='_blank'
-                rel='noreferrer'
-                href='https://github.com/luis-pomare/rails-car-booking-rentals-backend'
-              >
-                <button
-                  type='button'
-                  className='green-button'
-                  tabIndex='8'
-                >
-                  Source Code
-                </button>
-              </a>
-            </section>
-          </section>
-        </article>
+        <Card cardData={dataOne} />
         <article className='cards'>
           <section className='card-space'>
             <img alt='spaceTravelersHub' src='/images/spaceTravelersHub.png' />
@@ -249,7 +204,7 @@ export default function Main() {
             </section>
           </section>
         </article>
-        <Card cardData={dataOne} />
+        <Card cardData={dataSix} />
       </section>
     </main>
   );
