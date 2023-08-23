@@ -22,16 +22,16 @@ const cardsData = {
     cardSourceLink: 'https://github.com/luis-pomare/Space-Travelers-Hub'
   },
   dataThree: {
-    cardName: 'Math Magicians',
-    cardImage: '/images/mathMagicians.png',
+    cardName: 'The Boys seasons',
+    cardImage: '/images/theBoysSeasons.png',
     cardMadeWith: [
-      'React',
-      'CSS',
-      'Calculator lib',
-      'JavaScript'
+      'JavaScript',
+      'Two APIs',
+      'HTML',
+      'CSS'
     ],
-    cardProjectLink: 'https://6303171c73d2452b1b1fa652--poetic-fairy-59c30f.netlify.app/',
-    cardSourceLink: 'https://github.com/luis-pomare/math-magicians'
+    cardProjectLink: 'https://luis-pomare.github.io/the-boys-seasons/dist/#',
+    cardSourceLink: 'https://github.com/luis-pomare/the-boys-seasons'
   },
   dataFour: {
     cardName: 'Math Magicians',

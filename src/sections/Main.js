@@ -21,53 +21,7 @@ export default function Main() {
       <section className='cards-container'>
         <Card cardData={dataOne} />
         <Card cardData={dataTwo} />
-        <article className='cards'>
-          <section className='card-space'>
-            <img alt='theBoysSeasons' src='/images/theBoysSeasons.png' />
-          </section>
-          <section className='card-info'>
-            <h4 className='projectTitle' tabIndex='11'>
-              The Boys seasons
-            </h4>
-            <section className='made-with'>
-              <ul className='ul-with'>
-                <li className='blue-li'>JavaScript</li>
-                <li className='blue-li'>Two APIs</li>
-                <li className='blue-li'>html</li>
-                <li className='blue-li'>css</li>
-              </ul>
-            </section>
-            <section className='card-buttons-container'>
-              <a
-                target='_blank'
-                rel='noreferrer'
-                href='https://luis-pomare.github.io/the-boys-seasons/dist/#'
-              >
-                <button
-                  id='thirdCardButton'
-                  type='button'
-                  className='green-button'
-                  tabIndex='12'
-                >
-                  See Project
-                </button>
-              </a>
-              <a
-                target='_blank'
-                rel='noreferrer'
-                href='https://github.com/luis-pomare/the-boys-seasons'
-              >
-                <button
-                  type='button'
-                  className='green-button'
-                  tabIndex='8'
-                >
-                  Source Code
-                </button>
-              </a>
-            </section>
-          </section>
-        </article>
+        <Card cardData={dataThree} />
         <article className='cards'>
           <section className='card-space'>
             <img alt='gitHubFriends' src='/images/gitHubFriends.png' />
