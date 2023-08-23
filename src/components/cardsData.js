@@ -11,16 +11,15 @@ const cardsData = {
     cardSourceLink: 'https://github.com/luis-pomare/rails-car-booking-rentals-backend'
   },
   dataTwo: {
-    cardName: 'Math Magicians',
-    cardImage: '/images/mathMagicians.png',
+    cardName: "Space Travelers' Hub",
+    cardImage: '/images/spaceTravelersHub.png',
     cardMadeWith: [
-      'React',
+      'React and Redux',
       'CSS',
-      'Calculator lib',
-      'JavaScript'
+      'Microverse API'
     ],
-    cardProjectLink: 'https://6303171c73d2452b1b1fa652--poetic-fairy-59c30f.netlify.app/',
-    cardSourceLink: 'https://github.com/luis-pomare/math-magicians'
+    cardProjectLink: 'https://62e3d790301b6c0b660edd94--transcendent-creponne-c9416a.netlify.app/',
+    cardSourceLink: 'https://github.com/luis-pomare/Space-Travelers-Hub'
   },
   dataThree: {
     cardName: 'Math Magicians',

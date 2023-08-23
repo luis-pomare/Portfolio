@@ -20,52 +20,7 @@ export default function Main() {
       </header>
       <section className='cards-container'>
         <Card cardData={dataOne} />
-        <article className='cards'>
-          <section className='card-space'>
-            <img alt='spaceTravelersHub' src='/images/spaceTravelersHub.png' />
-          </section>
-          <section className='card-info'>
-            <h4 className='projectTitle' tabIndex='9'>
-              Space Travelers' Hub
-            </h4>
-            <section className='made-with'>
-              <ul className='ul-with'>
-                <li className='blue-li'>React and Redux</li>
-                <li className='blue-li'>css</li>
-                <li className='blue-li'>Microverse API</li>
-              </ul>
-            </section>
-            <section className='card-buttons-container'>
-              <a
-                target='_blank'
-                rel='noreferrer'
-                href='https://62e3d790301b6c0b660edd94--transcendent-creponne-c9416a.netlify.app/'
-              >
-                <button
-                  id='secondCardButton'
-                  type='button'
-                  className='green-button'
-                  tabIndex='10'
-                >
-                  See Project
-                </button>
-              </a>
-              <a
-                target='_blank'
-                rel='noreferrer'
-                href='https://github.com/luis-pomare/Space-Travelers-Hub'
-              >
-                <button
-                  type='button'
-                  className='green-button'
-                  tabIndex='8'
-                >
-                  Source Code
-                </button>
-              </a>
-            </section>
-          </section>
-        </article>
+        <Card cardData={dataTwo} />
         <article className='cards'>
           <section className='card-space'>
             <img alt='theBoysSeasons' src='/images/theBoysSeasons.png' />
