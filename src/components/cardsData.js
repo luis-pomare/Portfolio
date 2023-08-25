@@ -45,16 +45,16 @@ const cardsData = {
     cardSourceLink: 'https://github.com/luis-pomare/github-friends'
   },
   dataFive: {
-    cardName: 'Math Magicians',
-    cardImage: '/images/mathMagicians.png',
+    cardName: 'Bookstore',
+    cardImage: '/images/Bookstore.png',
     cardMadeWith: [
       'React',
       'CSS',
-      'Calculator lib',
+      'React Router',
       'JavaScript'
     ],
-    cardProjectLink: 'https://6303171c73d2452b1b1fa652--poetic-fairy-59c30f.netlify.app/',
-    cardSourceLink: 'https://github.com/luis-pomare/math-magicians'
+    cardProjectLink: 'https://63031255330a6429601b98db--illustrious-sorbet-a4bf9d.netlify.app/',
+    cardSourceLink: 'https://github.com/luis-pomare/bookstore'
   },
   dataSix: {
     cardName: 'Math Magicians',

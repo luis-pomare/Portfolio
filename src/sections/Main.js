@@ -23,52 +23,7 @@ export default function Main() {
         <Card cardData={dataTwo} />
         <Card cardData={dataThree} />
         <Card cardData={dataFour} />
-        <article className='cards'>
-          <section className='card-space'>
-            <img alt='Bookstore' src='/images/Bookstore.png' />
-          </section>
-          <section className='card-info'>
-            <h4 className='projectTitle' tabIndex='13'>
-              Bookstore
-            </h4>
-            <section className='made-with'>
-              <ul className='ul-with'>
-                <li className='blue-li'>React and Redux</li>
-                <li className='blue-li'>css</li>
-                <li className='blue-li'>Microverse API</li>
-              </ul>
-            </section>
-            <section className='card-buttons-container'>
-              <a
-                target='_blank'
-                rel='noreferrer'
-                href='https://63031255330a6429601b98db--illustrious-sorbet-a4bf9d.netlify.app/'
-              >
-                <button
-                  id='fourthCardButton'
-                  type='button'
-                  className='green-button'
-                  tabIndex='14'
-                >
-                  See Project
-                </button>
-              </a>
-              <a
-                target='_blank'
-                rel='noreferrer'
-                href='https://github.com/luis-pomare/bookstore'
-              >
-                <button
-                  type='button'
-                  className='green-button'
-                  tabIndex='8'
-                >
-                  Source Code
-                </button>
-              </a>
-            </section>
-          </section>
-        </article>
+        <Card cardData={dataFive} />
         <Card cardData={dataSix} />
       </section>
     </main>
