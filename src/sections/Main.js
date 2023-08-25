@@ -3,7 +3,6 @@ import Card from '../components/Card';
 import cardsData from '../components/cardsData';
 
 export default function Main() {
-  const { dataOne, dataTwo, dataThree, dataFour, dataFive, dataSix } = cardsData
   return (
     <main className='works-container'>
       <header className='works-header'>
@@ -19,12 +18,9 @@ export default function Main() {
         />
       </header>
       <section className='cards-container'>
-        <Card cardData={dataOne} />
-        <Card cardData={dataTwo} />
-        <Card cardData={dataThree} />
-        <Card cardData={dataFour} />
-        <Card cardData={dataFive} />
-        <Card cardData={dataSix} />
+        {Object.values(cardsData).map(
+          (data, index) => (<Card cardData={data} key={index} />)
+        )}
       </section>
     </main>
   );
