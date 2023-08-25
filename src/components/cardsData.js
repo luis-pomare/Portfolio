@@ -34,16 +34,15 @@ const cardsData = {
     cardSourceLink: 'https://github.com/luis-pomare/the-boys-seasons'
   },
   dataFour: {
-    cardName: 'Math Magicians',
-    cardImage: '/images/mathMagicians.png',
+    cardName: 'GitHub Friends',
+    cardImage: '/images/gitHubFriends.png',
     cardMadeWith: [
-      'React',
+      'React and Redux',
       'CSS',
-      'Calculator lib',
-      'JavaScript'
+      'GitHub API'
     ],
-    cardProjectLink: 'https://6303171c73d2452b1b1fa652--poetic-fairy-59c30f.netlify.app/',
-    cardSourceLink: 'https://github.com/luis-pomare/math-magicians'
+    cardProjectLink: 'https://development--storied-crepe-b941b1.netlify.app/',
+    cardSourceLink: 'https://github.com/luis-pomare/github-friends'
   },
   dataFive: {
     cardName: 'Math Magicians',

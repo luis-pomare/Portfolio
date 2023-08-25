@@ -22,51 +22,7 @@ export default function Main() {
         <Card cardData={dataOne} />
         <Card cardData={dataTwo} />
         <Card cardData={dataThree} />
-        <article className='cards'>
-          <section className='card-space'>
-            <img alt='gitHubFriends' src='/images/gitHubFriends.png' />
-          </section>
-          <section className='card-info'>
-            <h4 className='projectTitle' tabIndex='7'>
-              GitHub Friends
-            </h4>
-            <section className='made-with'>
-              <ul className='ul-with'>
-                <li className='blue-li'>React and Redux</li>
-                <li className='blue-li'>css</li>
-                <li className='blue-li'>GitHub API</li>
-              </ul>
-            </section>
-            <section className='card-buttons-container'>
-              <a
-                target='_blank'
-                rel='noreferrer'
-                href='https://development--storied-crepe-b941b1.netlify.app/'
-              >
-                <button
-                  type='button'
-                  className='green-button'
-                  tabIndex='8'
-                >
-                  See Project
-                </button>
-              </a>
-              <a
-                target='_blank'
-                rel='noreferrer'
-                href='https://github.com/luis-pomare/github-friends'
-              >
-                <button
-                  type='button'
-                  className='green-button'
-                  tabIndex='8'
-                >
-                  Source Code
-                </button>
-              </a>
-            </section>
-          </section>
-        </article>
+        <Card cardData={dataFour} />
         <article className='cards'>
           <section className='card-space'>
             <img alt='Bookstore' src='/images/Bookstore.png' />
