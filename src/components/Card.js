@@ -1,14 +1,14 @@
 import React from 'react'
 
 export default function Card(props) {
-  const { cardData } = props
+  const { cardData, key } = props
   return (
     <article className='cards'>
       <section className='card-space'>
         <img alt={cardData.cardName} src={cardData.cardImage} />
       </section>
       <section className='card-info'>
-        <h4 className='projectTitle' tabIndex='15'>
+        <h4 className='projectTitle' tabIndex={key + 8}>
           {cardData.cardName}
         </h4>
         <section className='made-with'>
@@ -28,7 +28,7 @@ export default function Card(props) {
               id='fifthCardButton'
               type='button'
               className='green-button'
-              tabIndex='16'
+              tabIndex={key + 9}
             >
               See Project
             </button>
@@ -41,7 +41,7 @@ export default function Card(props) {
             <button
               type='button'
               className='green-button'
-              tabIndex='8'
+              tabIndex={key + 10}
             >
               Source Code
             </button>
