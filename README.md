@@ -12,7 +12,6 @@ It contains all the projects I've been working on:
 ## Preview image
 
 [<img src="./app_screenshot.png">](https://playful-stardust-41d3fc.netlify.app/)
-
 ## Built With
 
 - React
