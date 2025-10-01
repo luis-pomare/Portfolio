@@ -1,15 +1,4 @@
 const cardsData = {
-  dataOne: {
-    cardName: 'Road Trip Wheels',
-    cardImage: '/images/roadTripWheels.png',
-    cardMadeWith: [
-      'PostgreSQL',
-      'Ruby on Rails',
-      'Context API',
-    ],
-    cardProjectLink: 'https://roadtrip-wheels.onrender.com/',
-    cardSourceLink: 'https://github.com/luis-pomare/rails-car-booking-rentals-backend'
-  },
   dataTwo: {
     cardName: "Space Travelers' Hub",
     cardImage: '/images/spaceTravelersHub.png',
