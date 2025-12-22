@@ -40,6 +40,7 @@ export default function About() {
           />
           <h4>Languages</h4>
           <ul className='skill-ul'>
+            <li className='skill-li'>Ruby on rails</li>
             <li className='skill-li'>JavaScript</li>
             <li className='skill-li'>Html</li>
             <li className='skill-li'>CSS</li>
