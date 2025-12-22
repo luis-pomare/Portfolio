@@ -1,4 +1,16 @@
 const cardsData = {
+  dataOne: {
+    cardName: 'Ruby on rails "Road trip weels"',
+    cardImage: '/images/roadTripWheels.png',
+    cardMadeWith: [
+      'Ruby on rails',
+      'ORM',
+      'PostgreSQL',
+      'API'
+    ],
+    cardProjectLink: 'https://rails-car-booking-rentals-frontend.onrender.com/',
+    cardSourceLink: 'https://github.com/luis-pomare/rails-car-booking-rentals-frontend'
+  },
   dataTwo: {
     cardName: "Space Travelers' Hub",
     cardImage: '/images/spaceTravelersHub.png',
